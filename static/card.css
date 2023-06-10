@@ -17,6 +17,8 @@
 }
 
 .courses-container {
+	align-items: center;
+	justify-content: center;
 	
 }
 
@@ -25,8 +27,12 @@
 	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 	display: flex;
 	overflow: hidden;
-
+	align-items: center;
+	justify-content: center;
+	width: 100%;	
 }
+
+
 
 .course h6 {
 	opacity: 0.6;
