@@ -14,8 +14,16 @@
           -ms-overflow-style: none;  /* IE and Edge */
           scrollbar-width: none;  /* Firefox */
         }
-      
-      
+  
+     .nav-link img:hover
+      {
+        border-radius: 50%;
+        border: 3px solid #fff;
+      }
+      .nav-link
+      {
+        margin: -2px;
+      }
       .d-inline-block
       {
         height: 90px;
