@@ -13,7 +13,6 @@
 	box-sizing: border-box;
 }
 
-
 .cardMain {
 	background-color: #172439;
 	font-family: 'Muli', sans-serif;
@@ -27,7 +26,6 @@
 .courses-container {
 	align-items: center;
 	justify-content: center;
-	
 }
 
 .course {
@@ -38,9 +36,9 @@
 	align-items: center;
 	justify-content: center;
 	width: 100%;	
+	margin: 10px;
+	padding: 0;
 }
-
-
 
 .course h6 {
 	opacity: 0.6;
@@ -59,6 +57,8 @@
 	color: #fff;
 	padding: 30px;
 	max-width: 350px;
+	width: 100%;
+	height: 100%; /* Added height: 100% */
 }
 
 .course-preview a {
@@ -109,25 +109,24 @@
 }
 
 .btn {
-	background-color:#fff;
+	background-color: #fff;
 	border: 0;
 	border-radius: 50px;
 	color: black;
 	font-size: 16px;
 	padding: 10px 22px;
 	position: absolute;
-    margin-left: 85px;
+	margin-left: 85px;
 	margin-top: 18px;
 	letter-spacing: 1px;
-    font-family: 'Muli', sans-serif;
+	font-family: 'Muli', sans-serif;
 }
-body
-        {
-            background-color: #172439;
-            padding-left: 5px;
-            padding-right: 5px;
-        }
-      
+
+body {
+	background-color: #172439;
+	padding-left: 5px;
+	padding-right: 5px;
+}
     
 </style>
 </head>
@@ -136,8 +135,8 @@ body
 <body>
  
 
-  <div class="cardMain container">
-    <div class="courses-container row" >
+  <div class="cardMain .container-fluid">
+    <div class="courses-container row">
       <div class="course col">
         <div class="course-preview">
           <h6>Course</h6>

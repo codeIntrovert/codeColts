@@ -3,13 +3,22 @@
             background-color: #172439;
             padding-left: 5px;
             padding-right: 5px;
+            
         }
-      
+        body::-webkit-scrollbar {
+          display: none;
+        }
+        
+        /* Hide scrollbar for IE, Edge and Firefox */
+        body {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+        }
       
       
       .d-inline-block
       {
-        height: 11.5vh;
+        height: 90px;
       }
       .navbar
       {
