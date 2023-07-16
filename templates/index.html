@@ -1,0 +1,42 @@
+{% from 'macros/menu.html' import project_list %}
+{% from 'macros/lectures.html' import lecture_list %}
+{% extends 'layout.html' %}
+
+{% block content %}
+{% include 'components/indexBanner.html' %}
+
+<!-- ***** Most Popular Start ***** -->
+<!-- ***** Most Popular Start ***** -->
+<div class="most-popular">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="heading-section">
+        <h4>#<em> Popular</em> Courses</h4>
+      </div>
+      <div class="row">
+        
+         <!--macro from here-->
+        {{ project_list(beginner) }}
+        <div class="col-lg-12">
+          <div class="main-button">
+            <a href="{{ url_for('browse') }}">Discover Popular</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ***** Most Popular End ***** -->
+
+<!-- ***** Gaming Library Start ***** -->
+<div class="gaming-library">
+  <div class="col-lg-12">
+    <div class="heading-section">
+      <h4># <em>History</em></h4>
+    </div>
+    {{ lecture_list(lecturesData) }}
+  </div>
+</div>
+<!-- ***** Gaming Library End ***** -->
+
+  {% endblock %}

@@ -1,0 +1,18 @@
+<!--lecture macro-->
+
+{% macro lecture_list(data) %}
+
+{% for lecture in data %}
+<div class="item">
+    <ul>
+      <li><img src="{{ url_for('static', filename='assets/images/game-02.jpg') }}" alt="" class="templatemo-item"></li>
+      <li><h4>{{lecture[0]}}</h4><span>{{lecture[1]}}</span></li>
+      <li><h4>Date Added</h4><span>{{lecture[2]}}</span></li>
+      <li><h4>Duration</h4><span>{{lecture[3]}}</span></li>
+      <li><h4>Price</h4><span>{{lecture[4]}}</span></li>
+      <li><div class="main-border-button"><a href="#">Watch</a></div></li>
+    </ul>
+  </div>
+{% endfor %}
+
+{% endmacro %}
