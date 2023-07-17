@@ -1,25 +1,94 @@
-beginner = [ # keep it in multiples of 4 for optimal design
-    ('HTML', 'Free','4.8', '#','popular-02.jpg'),
-    ('CSS','Free','5.0','#','popular-01.jpg'),
-    ('JavaScript', '$4.99','4.8', '#','popular-04.jpg'),
-    ('AWS Basics','Free','5.0','#','popular-03.jpg')
-    #('CourseName', 'Price/Free','rating','link','imageName')
+beginner = [
+    {
+        'courseName': 'HTML',
+        'price': 'Free',
+        'rating': '4.8',
+        'link': '#',
+        'imageName': 'popular-02.jpg'
+    },
+    {
+        'courseName': 'CSS',
+        'price': 'Free',
+        'rating': '5.0',
+        'link': '#',
+        'imageName': 'popular-01.jpg'
+    },
+    {
+        'courseName': 'JavaScript',
+        'price': '$4.99',
+        'rating': '4.8',
+        'link': '#',
+        'imageName': 'popular-04.jpg'
+    },
+    {
+        'courseName': 'AWS Basics',
+        'price': 'Free',
+        'rating': '5.0',
+        'link': '#',
+        'imageName': 'popular-03.jpg'
+    }
 ]
-advance = [
-    ('Django', 'Free','4.8', '#','popular-01.jpg'),
-    ('Numpy','$4.99','5.0','#','popular-02.jpg'),
-    ('Big Data','$4.99','5.0','#','popular-03.jpg'),
-    ('C#','$4.99','5.0','#','popular-04.jpg')
+
+advanced = [
+    {
+        'courseName': 'Django',
+        'price': 'Free',
+        'rating': '4.8',
+        'link': '#',
+        'imageName': 'popular-01.jpg'
+    },
+    {
+        'courseName': 'Numpy',
+        'price': '$4.99',
+        'rating': '5.0',
+        'link': '#',
+        'imageName': 'popular-02.jpg'
+    },
+    {
+        'courseName': 'Big Data',
+        'price': '$4.99',
+        'rating': '5.0',
+        'link': '#',
+        'imageName': 'popular-03.jpg'
+    },
+    {
+        'courseName': 'C#',
+        'price': '$4.99',
+        'rating': '5.0',
+        'link': '#',
+        'imageName': 'popular-04.jpg'
+    }
 ]
+
 lecturesData = [
-    ('HTML/CSS','ReactJS','23/Feb','1 Hour','Free'),
-    ('JavaScript','ReactJS','23/Feb','2 Hour','Free'),
-    ('UI/UX','ReactJS','23/Feb','1.6 Hour','$10')    
+    {
+        'courseName': 'HTML/CSS',
+        'topic': 'ReactJS',
+        'date': '23/Feb',
+        'duration': '1 Hour',
+        'price': 'Free'
+    },
+    {
+        'courseName': 'JavaScript',
+        'topic': 'ReactJS',
+        'date': '23/Feb',
+        'duration': '2 Hour',
+        'price': 'Free'
+    },
+    {
+        'courseName': 'UI/UX',
+        'topic': 'ReactJS',
+        'date': '23/Feb',
+        'duration': '1.6 Hour',
+        'price': '$10'
+    }
 ]
+
 course = {
-    'Name': 'ReactJS',
-    'Difficulty': 'Intermediate',
-    'Duration': '1 week',
-    'Rating':'5.0',
+    'name': 'ReactJS',
+    'difficulty': 'Intermediate',
+    'duration': '1 week',
+    'rating': '5.0',
+    'price': 'Free',
     'description': 'ReactJS is a powerful, efficient and user-friendly JavaScript library for building interactive interfaces.'
 }

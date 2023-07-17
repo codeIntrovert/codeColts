@@ -1,16 +1,14 @@
 {% macro project_list(data) %}
-
-{% for project in data %}
-<div class="col-lg-3 col-sm-6">
-    <div class="item">
-      <img src="{{ url_for('static', filename='assets/images/' ~ project[4]) }}" alt="">
-        <h4>{{project[0]}}<br><span>{{project[1]}}</span></h4>
+  {% for project in data %}
+    <div class="col-lg-3 col-sm-6">
+      <div class="item">
+        <img src="{{ url_for('static', filename='assets/images/' ~ project['imageName']) }}" alt="">
+        <h4>{{ project['courseName'] }}<br><span>{{ project['price'] }}</span></h4>
         <ul>
-            <li><i class="fa fa-star star"></i> {{project[2]}}</li>
-            <li><i class="fa fa-bookmark star"></i></li>
+          <li><i class="fa fa-star star"></i> {{ project['rating'] }}</li>
+          <li><i class="fa fa-bookmark star"></i></li>
         </ul>
+      </div>
     </div>
-    </div>
-{% endfor %}
-
+  {% endfor %}
 {% endmacro %}
