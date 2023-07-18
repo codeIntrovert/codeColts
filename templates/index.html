@@ -1,9 +1,6 @@
-{% extends 'layout.html' %}
+{% extends 'layout.html' %} {% block content %} 
+{% include'components/indexBanner.html' %}
 
-{% block content %}
-{% include 'components/indexBanner.html' %}
-
-<!-- ***** Most Popular Start ***** -->
 <!-- ***** Most Popular Start ***** -->
 <div class="most-popular">
   <div class="row">
@@ -12,10 +9,9 @@
         <h4>#<em> Popular</em> Courses</h4>
       </div>
       <div class="row">
-        
-         <!--macro from here-->
+        <!--macro from here-->
         {{ project_list(beginner) }}
-         <!-- macro ends -->
+        <!-- macro ends -->
 
         <div class="col-lg-12">
           <div class="main-button">
@@ -39,4 +35,4 @@
 </div>
 <!-- ***** Gaming Library End ***** -->
 
-  {% endblock %}
+{% endblock %}

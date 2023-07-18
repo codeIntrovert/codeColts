@@ -1,76 +1,83 @@
-{% extends 'layout.html' %}
-{% block content %}
+{% extends 'layout.html' %} {% block content %}
 
 <!-- ***** Details Start ***** -->
 <div class="game-details">
-<div class="row">
-  <div class="col-lg-12" style="margin-top: -8vh; text-align:center;">
-    <h2>
-      <i class="devicon-react-original colored" style="font-size: 35px; margin-left:-10px;"></i> {{ course['name'] }}</h2>
-  </div>
-  <div class="col-lg-12">
-    <div class="content">
-      <div class="row">
-        <div class="col">
-          <div class="left-info">
-            <ul style="text-align: center;">
-              <li>
-                {{ course['description'] }}
-              </li>
-            </ul>        
-          </div>
-          <div class="right-info">
-            <ul>
-              <li><i class="fa fa-star star"></i>{{ course['rating'] }}</li>
-              <li><i class="fa fa-clock"></i>{{ course['duration'] }}</li>
-              <li><i class="fa fa-circle-check"></i> {{ course['price'] }}</li>
-              <li><i class="fa fa-microchip"></i>{{ course['difficulty'] }}</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="gaming-library" style="margin-top: -10px;">
-          <div class="col-lg-12">
-            <div class="heading-section">
-              <h4># <em>Lectures</em></h4>
+  <div class="row">
+    <div class="col-lg-12" style="margin-top: -8vh; text-align: center">
+      <h2>
+        <i
+          class="devicon-react-original colored"
+          style="font-size: 35px; margin-left: -10px"
+        ></i>
+        {{ course['name'] }}
+      </h2>
+    </div>
+    <div class="col-lg-12">
+      <div class="content">
+        <div class="row">
+          <div class="col">
+            <div class="left-info">
+              <ul style="text-align: center">
+                <li>{{ course['description'] }}</li>
+              </ul>
             </div>
+            <div class="right-info">
+              <ul>
+                <li><i class="fa fa-star star"></i>{{ course['rating'] }}</li>
+                <li><i class="fa fa-clock"></i>{{ course['duration'] }}</li>
+                <li>
+                  <i class="fa fa-circle-check"></i> {{ course['price'] }}
+                </li>
+                <li>
+                  <i class="fa fa-microchip"></i>{{ course['difficulty'] }}
+                </li>
+              </ul>
+            </div>
+          </div>
 
-            {{ lecture_list(lecturesData) }}
-
+          <div class="gaming-library" style="margin-top: -10px">
             <div class="col-lg-12">
-            <div class="main-button">
-              <a href="{{ url_for('profile') }}">View Your Library</a>
+              <div class="heading-section">
+                <h4># <em>Lectures</em></h4>
+              </div>
+
+              {{ lecture_list(lecturesData) }}
+
+              <div class="col-lg-12">
+                <div class="main-button">
+                  <a href="{{ url_for('profile') }}">View Your Library</a>
+                </div>
+              </div>
             </div>
+            <!-- ***** Gaming Library End ***** -->
+            <!-- ***** Details End ***** -->
           </div>
         </div>
-
       </div>
     </div>
   </div>
-</div>
-<!-- ***** Gaming Library End ***** -->
-<!-- ***** Other Start ***** -->
-<div class="most-popular">
-  <div class="row">
-    <div class="col-lg-12">
-      <div class="heading-section">
-        <h4>#<em> Related</em> Courses</h4>
-      </div>
-      <div class="row">
-        
+  <!-- ***** Other Start ***** -->
+  <div class="most-popular">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="heading-section">
+          <h4>#<em> Related</em> Courses</h4>
+        </div>
+        <div class="row">
           <!--macro from here-->
-        {{ project_list(beginner) }}
+          {{ project_list(beginner) }}
           <!-- macro ends -->
 
-        <div class="col-lg-12">
-          <div class="main-button">
-            <a href="{{ url_for('browse') }}">Discover Popular</a>
+          <div class="col-lg-12">
+            <div class="main-button">
+              <a href="{{ url_for('browse') }}">Discover Popular</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<!-- ***** Other End ***** -->
+  <!-- ***** Other End ***** -->
 
-{% endblock %}
+  {% endblock %}
+</div>
