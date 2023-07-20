@@ -45,10 +45,10 @@ advanced = [
         'imageName': 'popular-02.jpg'
     },
     {
-        'courseName': 'Big Data',
+        'courseName': 'ML & AI',
         'price': '$4.99',
         'rating': '5.0',
-        'link': '#',
+        'link': 'url_for("ML")',
         'imageName': 'popular-03.jpg'
     },
     {
@@ -86,9 +86,19 @@ lecturesData = [
 
 course = {
     'name': 'ReactJS',
+    'logo' : 'react',
     'difficulty': 'Intermediate',
     'duration': '1 week',
     'rating': '5.0',
     'price': 'Free',
     'description': 'ReactJS is a powerful, efficient and user-friendly JavaScript library for building interactive interfaces.'
+}
+ML = {
+    'name': 'Machine Learning',
+    'logo': 'python',
+    'diffculty' : 'Advanced',
+    'duration': '3 week',
+    'rating': '4.9',
+    'price': '$25',
+    'description': 'Training computers to learn from data, improving performance without explicit instructions.'
 }
