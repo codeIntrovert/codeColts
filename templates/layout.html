@@ -4,58 +4,7 @@
   'macros/lectures.html' import lecture_list %}
 
   <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>CodeColts</title>
-
-    <!-- Bootstrap core CSS -->
-    <link
-      href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}"
-      rel="stylesheet"
-    />
-
-    <!-- Additional CSS Files -->
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='assets/css/fontawesome.css') }}"
-    />
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='assets/css/templatemo-cyborg-gaming.css') }}"
-    />
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='assets/css/owl.css') }}"
-    />
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='assets/css/animate.css') }}"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-    />
-    <!--
-
-TemplateMo 579 Cyborg Gaming
-
-https://templatemo.com/tm-579-cyborg-gaming
-
--->
+    {% include 'components/headmeta.html' %}
   </head>
 
   <body>
@@ -107,11 +56,10 @@ https://templatemo.com/tm-579-cyborg-gaming
                   <a href="{{ url_for('browse') }}" id="browse">Browse</a>
                 </li>
                 <li>
-                  <a href="{{ url_for('details') }}" id="details">Details</a>
+                  <a href="{{ url_for('login') }}" id="logout">Logout</a>
                 </li>
                 <li>
-                  <a href="{{ url_for('profile') }}" id="profile"
-                    >Profile
+                  <a href="{{ url_for('profile') }}" id="profile">Profile
                     <img
                       src="{{ url_for('static', filename='assets/images/profile-header.jpg') }}"
                       alt=""
@@ -129,10 +77,10 @@ https://templatemo.com/tm-579-cyborg-gaming
                   document.getElementById("home").classList.add("active");
                 } else if (currentPath === "{{ url_for('browse') }}") {
                   document.getElementById("browse").classList.add("active");
-                } else if (currentPath === "{{ url_for('details') }}") {
-                  document.getElementById("details").classList.add("active");
-                } else if (currentPath === "{{ url_for('profile') }}") {
+                }  else if (currentPath === "{{ url_for('profile') }}") {
                   document.getElementById("profile").classList.add("active");
+                } else if (currentPath === "{{ url_for('login') }}") {
+                  document.getElementById("logout").classList.add("active");
                 }
               </script>
 
