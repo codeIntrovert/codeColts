@@ -28,7 +28,7 @@
           <div class="col-12">
             <nav class="main-nav">
               <!-- ***** Logo Start ***** -->
-              <a href="{{ url_for('index') }}" class="logo">
+              <a href="{{ url_for('index.index') }}" class="logo">
                 <img
                   src="{{ url_for('static', filename='assets/images/logo.png') }}"
                   alt=""
@@ -51,15 +51,15 @@
               <!-- ***** Search End ***** -->
               <!-- ***** Menu Start ***** -->
               <ul class="nav">
-                <li><a href="{{ url_for('index') }}" id="home">Home</a></li>
+                <li><a href="{{ url_for('index.index') }}" id="home">Home</a></li>
                 <li>
-                  <a href="{{ url_for('browse') }}" id="browse">Browse</a>
+                  <a href="{{ url_for('browse.browse_home') }}" id="browse">Browse</a>
                 </li>
                 <li>
-                  <a href="{{ url_for('login') }}" id="logout">Logout</a>
+                  <a href="{{ url_for('login.login') }}" id="logout">Logout</a>
                 </li>
                 <li>
-                  <a href="{{ url_for('profile') }}" id="profile">Profile
+                  <a href="{{ url_for('profile.profile') }}" id="profile">Profile
                     <img
                       src="{{ url_for('static', filename='assets/images/profile-header.jpg') }}"
                       alt=""
@@ -73,13 +73,13 @@
                 var currentPath = window.location.pathname;
 
                 // Get the menu item with a matching URL and add the "active" class
-                if (currentPath === "{{ url_for('index') }}") {
+                if (currentPath === "{{ url_for('index.index') }}") {
                   document.getElementById("home").classList.add("active");
-                } else if (currentPath === "{{ url_for('browse') }}") {
+                } else if (currentPath === "{{ url_for('browse.browse_home') }}") {
                   document.getElementById("browse").classList.add("active");
-                }  else if (currentPath === "{{ url_for('profile') }}") {
+                }  else if (currentPath === "{{ url_for('profile.profile') }}") {
                   document.getElementById("profile").classList.add("active");
-                } else if (currentPath === "{{ url_for('login') }}") {
+                } else if (currentPath === "{{ url_for('login.login') }}") {
                   document.getElementById("logout").classList.add("active");
                 }
               </script>
@@ -132,5 +132,20 @@
     <script src="{{ url_for('static', filename='assets/js/tabs.js') }}"></script>
     <script src="{{ url_for('static', filename='assets/js/popup.js') }}"></script>
     <script src="{{ url_for('static', filename='assets/js/custom.js') }}"></script>
+  <!-- Include jQuery library if not already included in your project -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+  // JavaScript code to handle the click event on the item divs
+  $(document).ready(function() {
+    $('.item').click(function() {
+      var url = $(this).data('href');
+      if (url) {
+        window.location.href = url;
+      }
+    });
+  });
+</script>
+
   </body>
 </html>

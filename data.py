@@ -1,64 +1,4 @@
-beginner = [
-    {
-        'courseName': 'HTML',
-        'price': 'Free',
-        'rating': '4.8',
-        'link': '#',
-        'imageName': 'popular-02.jpg'
-    },
-    {
-        'courseName': 'CSS',
-        'price': 'Free',
-        'rating': '5.0',
-        'link': '#',
-        'imageName': 'popular-01.jpg'
-    },
-    {
-        'courseName': 'JavaScript',
-        'price': '$4.99',
-        'rating': '4.8',
-        'link': '#',
-        'imageName': 'popular-04.jpg'
-    },
-    {
-        'courseName': 'AWS Basics',
-        'price': 'Free',
-        'rating': '5.0',
-        'link': '#',
-        'imageName': 'popular-03.jpg'
-    }
-]
 
-advanced = [
-    {
-        'courseName': 'Django',
-        'price': 'Free',
-        'rating': '4.8',
-        'link': '#',
-        'imageName': 'popular-01.jpg'
-    },
-    {
-        'courseName': 'Numpy',
-        'price': '$4.99',
-        'rating': '5.0',
-        'link': '#',
-        'imageName': 'popular-02.jpg'
-    },
-    {
-        'courseName': 'ML & AI',
-        'price': '$4.99',
-        'rating': '5.0',
-        'link': 'url_for("ML")',
-        'imageName': 'popular-03.jpg'
-    },
-    {
-        'courseName': 'C#',
-        'price': '$4.99',
-        'rating': '5.0',
-        'link': '#',
-        'imageName': 'popular-04.jpg'
-    }
-]
 
 lecturesData = [
     {
@@ -105,7 +45,7 @@ ML = {
 JavaScript = {
 'name': 'JavaScript Fundamentals',
 'logo': 'javascript-plain',
-'difficulty': 'Intermediate',
+'difficulty': 'Beginner',
 'duration': '4 weeks',
 'rating': '4.7',
 'price': '$20',
