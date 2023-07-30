@@ -1,3 +1,4 @@
+
 beginner = [
     {
         'courseName': 'HTML',

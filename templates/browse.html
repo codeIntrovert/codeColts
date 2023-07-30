@@ -1,5 +1,28 @@
 {% extends 'layout.html' %} {% block content %}
+
 <!-- ***** New Browse ***** -->
+
+{% if search_keyword %}
+<h2>Search Results for "{{ search_keyword }}"</h2>
+{% if search_results %}
+    <div class="most-popular">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="heading-section">
+                    <h4># <em>{{ search_keyword }}</em></h4>
+                </div>
+                <div class="row">
+                    <!-- Use the provided macro to display the search results -->
+                    {{ project_list(search_results) }}
+                </div>
+            </div>
+        </div>
+    </div>
+{% else %}
+    <p>No courses found matching "{{ search_keyword }}".</p>
+{% endif %}
+{% endif %}
+
 <!-- ***** Most Popular Start ***** -->
 <div class="most-popular">
   <div class="row">
