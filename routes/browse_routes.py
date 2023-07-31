@@ -14,6 +14,7 @@ course_mapping = {
     'Django': data.Django,
     'Python': data.Python,
     'HTML': data.HTML,
+    'Angular': data.Angular
     # Add more courses here as needed
 }
 
@@ -37,6 +38,7 @@ def details(course_name):
 def browse():
     beginner = menuData.beginner
     advanced = menuData.advanced
+    allCourses = menuData.all
 
     # If the form is submitted (POST request), get the search keyword from the form
     if request.method == 'POST':
@@ -49,4 +51,4 @@ def browse():
         return render_template('browse.html', beginner=beginner, advanced=advanced, search_keyword=search_keyword, search_results=filtered_courses)
     
     # If it's a GET request, show the regular browse page without search results
-    return render_template('browse.html', beginner=beginner, advanced=advanced)
+    return render_template('browse.html', beginner=beginner, advanced=advanced, allCourses=allCourses)

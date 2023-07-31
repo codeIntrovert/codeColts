@@ -11,3 +11,14 @@ advanced = [ data.Django,
             data.CSharp,
             data.ruby
 ]
+all = [
+    data.Java,
+    data.CSharp,
+    data.ReactJS,
+    data.ML,
+    data.JavaScript,
+    data.Django,
+    data.Python,
+    data.HTML,
+    data.Angular
+]
