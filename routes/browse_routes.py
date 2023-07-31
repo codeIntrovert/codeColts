@@ -1,5 +1,6 @@
 from flask import Blueprint, render_template, redirect, url_for, request
 import data, menuData
+from lecturesData import lecturesData
 
 browse_blueprint = Blueprint('browse', __name__)
 
@@ -7,10 +8,12 @@ browse_blueprint = Blueprint('browse', __name__)
 course_mapping = {
     'Java': data.Java,
     'C#': data.CSharp,
-    'ReactJS': data.reactjs,
+    'ReactJS': data.ReactJS,
     'ML+AI': data.ML,
     'JavaScript': data.JavaScript,
-    'Django': data.Django
+    'Django': data.Django,
+    'Python': data.Python,
+    'HTML': data.HTML,
     # Add more courses here as needed
 }
 
@@ -23,11 +26,14 @@ def details(course_name):
 
     # Get the corresponding course data from the course_mapping
     course = course_mapping[course_name]
-    lecturesData = data.lecturesData
-    beginner = menuData.beginner
-    return render_template('details.html', course=course, lecturesData=lecturesData, beginner=beginner)
+    lectures_data = lecturesData.get(course_name, [])  # Get lectures data for the course
 
-@browse_blueprint.route('/browse', endpoint='browse_home', methods=['GET', 'POST'])
+    beginner = menuData.beginner
+    return render_template('details.html', course=course, lectures_data=lectures_data, beginner=beginner)
+
+####################### details end #######################
+
+@browse_blueprint.route('/browse', endpoint='browse_home', methods=['GET', 'POST']) # used when no course_name is provided
 def browse():
     beginner = menuData.beginner
     advanced = menuData.advanced

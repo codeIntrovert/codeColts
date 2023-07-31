@@ -1,17 +1,18 @@
-
 {% macro lecture_list(data) %}
-
-{% for lecture in data %}
-<div class="item">
-    <ul>
-      <li><img src="{{ url_for('static', filename='assets/images/game-02.jpg') }}" alt="" class="templatemo-item"></li>
-      <li><h4>{{ lecture['courseName'] }}</h4><span>{{ lecture['topic'] }}</span></li>
-      <li><h4>Date Added</h4><span>{{ lecture['date'] }}</span></li>
-      <li><h4>Duration</h4><span>{{ lecture['duration'] }}</span></li>
-      <li><h4>Price</h4><span>{{ lecture['price'] }}</span></li>
-      <li><div class="main-border-button"><a href="#">Watch</a></div></li>
-    </ul>
-  </div>
-{% endfor %}
-
+  {% if data %}
+    {% for lecture in data %}
+      <div class="item">
+        <ul>
+          <li><img src="{{ url_for('static', filename='assets/images/game-02.jpg') }}" alt="" class="templatemo-item"></li>
+          <li><h4>{{ lecture['topic'] }}</h4><span>{{lecture['courseName']}}</span></li>
+          <li><h4>Date Added</h4><span>{{ lecture['date'] }}</span></li>
+          <li><h4>Duration</h4><span>{{ lecture['duration'] }}</span></li>
+          <li><h4>Price</h4><span>{{ lecture['price'] }}</span></li>
+          <li><div class="main-border-button"><a href="#">Watch</a></div></li>
+        </ul>
+      </div>
+    {% endfor %}
+  {% else %}
+    <p>No lectures found for this course.</p>
+  {% endif %}
 {% endmacro %}

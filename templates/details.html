@@ -41,7 +41,12 @@
                 <h4># <em>Lectures</em></h4>
               </div>
 
-              {{ lecture_list(lecturesData) }}
+              {% if lectures_data %}
+              {% from 'macros/lectures.html' import lecture_list %}
+              {{ lecture_list(lectures_data) }}
+              {% else %}
+                <p>No lectures found for this course.</p>
+              {% endif %}
 
               <div class="col-lg-12">
                 <div class="main-button">
