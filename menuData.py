@@ -6,13 +6,13 @@ trending = [data.ReactJS,
 ]
 
 all = [
-    data.Java,
+    data.Java, #lecture added
     data.CSharp,
-    data.ReactJS,
-    data.ML,
-    data.JavaScript,
-    data.Django,
-    data.Python,
-    data.HTML,
+    data.ReactJS, #lecture added
+    data.ML, #lecture added
+    data.JavaScript,#lecture added
+    data.Django, #lecture added
+    data.Python, #lecture added
+    data.HTML, #lecture added
     data.Angular
 ]

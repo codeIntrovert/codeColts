@@ -63,7 +63,9 @@ figcaption {
   border: 0;
   outline: 0;
 }
-
+::-webkit-scrollbar {
+  display: none;
+}
 .clearfix:after {
   content: ".";
   display: block;

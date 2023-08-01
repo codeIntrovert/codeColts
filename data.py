@@ -125,14 +125,14 @@ HTML = {
 'description': 'Learn the basics of HTML and CSS for front-end web development.'
 }
 Angular = {
-    'courseName': 'Angular',
-    'name' : 'Angular Devloper',
-    'logo' : 'angular-plain',
-    'diffculty' : 'Intermediate',
-    'duration': '3 Days',
-    'rating': '4.5',
-    'price': '$10',
-    'imageName': 'popular-04.jpg',
-    'description': 'Angular.'
+'courseName': 'Angular',
+'name' : 'Angular Devloper',
+'logo' : 'angularjs-plain',
+'difficulty' : 'Intermediate',
+'duration': '3 Days',
+'rating': '4.5',
+'price': '$10',
+'imageName': 'popular-04.jpg',
+'description': 'Learn the basics of Angular for front-end web development.'
 }    
 

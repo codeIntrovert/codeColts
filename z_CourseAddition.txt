@@ -1,4 +1,4 @@
 1. add data of course in data.py [name, logo, duration, etc.]
 2. add route mapping in /routes/browse_routes.py 
 3. add lecturesData in lecturesData.py
-4. add to all list (optional)
+4. add new course to all list in menuData.py

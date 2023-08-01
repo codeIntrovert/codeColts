@@ -114,6 +114,66 @@ lecturesData = {
             'duration': '3 Hour',
             'price': 'Free'
         }
+        ],
+    'Django' : [
+        {
+            'courseName': 'Django',
+            'topic': 'Fundamentals',
+            'date': '23/Feb',
+            'duration': '1 Hour',
+            'price': 'Free'
+        },
+        {
+            'courseName': 'Django',
+            'topic': 'Python Basics',
+            'date': '23/Feb',
+            'duration': '2 Hour',
+            'price': 'Free'
+        },
+        {
+            'courseName': 'Django',
+            'topic': 'Exploring Django',
+            'date': '23/Feb',
+            'duration': '3 Hour',
+            'price': 'Free'
+        },
+        {
+            'courseName': 'Django',
+            'topic': 'Django Models',
+            'date': '23/Feb',
+            'duration': '4 Hour',
+            'price': 'Free'
+        },
+        {
+            'courseName': 'Django',
+            'topic': 'Django Templates',
+            'date': '23/Feb',
+            'duration': '5 Hour',
+            'price': 'Free'
+        }
+    ],
+    'JavaScript' : [
+        {
+            'courseName': 'JavaScript',
+            'topic': 'Fundamentals',
+            'date': '23/Feb',
+            'duration': '1 Hour',
+            'price': 'Free'
+        },
+        {
+            'courseName': 'JavaScript',
+            'topic': 'JS in HTML',
+            'date': '23/Feb',
+            'duration': '2 Hour',
+            'price': 'Free'
+        },
+        {
+            'courseName': 'JavaScript',
+            'topic': 'NodeJS',
+            'date': '23/Feb',
+            'duration': '3 Hour',
+            'price': 'Free'
+        }
         ]
     # Add more courses as needed
 }
