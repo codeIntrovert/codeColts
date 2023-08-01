@@ -125,7 +125,7 @@ HTML = {
 'description': 'Learn the basics of HTML and CSS for front-end web development.'
 }
 Angular = {
-'courseName': 'Angular',
+'courseName': 'Angular',#used on search results
 'name' : 'Angular Devloper',
 'logo' : 'angularjs-plain',
 'difficulty' : 'Intermediate',

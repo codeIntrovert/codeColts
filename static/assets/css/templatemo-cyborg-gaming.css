@@ -66,6 +66,7 @@ figcaption {
 ::-webkit-scrollbar {
   display: none;
 }
+
 .clearfix:after {
   content: ".";
   display: block;
