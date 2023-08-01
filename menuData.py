@@ -1,16 +1,10 @@
 import data
-beginner = [data.ReactJS,
-            data.Java,
+trending = [data.ReactJS,
+            data.Django,
             data.JavaScript,
             data.Python
 ]
 
-
-advanced = [ data.Django,
-            data.ML,
-            data.CSharp,
-            data.ruby
-]
 all = [
     data.Java,
     data.CSharp,

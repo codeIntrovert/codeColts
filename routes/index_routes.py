@@ -5,6 +5,6 @@ index_blueprint = Blueprint('index', __name__)
 
 @index_blueprint.route('/',endpoint='index')
 def index():
-    beginner = menuData.beginner
+    trending = menuData.trending
     lecturesData = data.watchHistory
-    return render_template('index.html', beginner=beginner, lecturesData=lecturesData)
+    return render_template('index.html', trending=trending, lecturesData=lecturesData)

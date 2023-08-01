@@ -29,15 +29,14 @@ def details(course_name):
     course = course_mapping[course_name]
     lectures_data = lecturesData.get(course_name, [])  # Get lectures data for the course
 
-    beginner = menuData.beginner
-    return render_template('details.html', course=course, lectures_data=lectures_data, beginner=beginner)
+    trending = menuData.trending
+    return render_template('details.html', course=course, lectures_data=lectures_data, trending=trending)
 
 ####################### details end #######################
-
+################### General /browse page ###################
 @browse_blueprint.route('/browse', endpoint='browse_home', methods=['GET', 'POST']) # used when no course_name is provided
 def browse():
-    beginner = menuData.beginner
-    advanced = menuData.advanced
+    trending = menuData.trending
     allCourses = menuData.all
 
     # If the form is submitted (POST request), get the search keyword from the form
@@ -48,7 +47,7 @@ def browse():
         for course_name, course_data in course_mapping.items():
             if search_keyword.lower() in course_name.lower():
                 filtered_courses.append(course_data)
-        return render_template('browse.html', beginner=beginner, advanced=advanced, search_keyword=search_keyword, search_results=filtered_courses)
+        return render_template('browse.html', trending=trending, allCourses=allCourses, search_keyword=search_keyword, search_results=filtered_courses)
     
     # If it's a GET request, show the regular browse page without search results
-    return render_template('browse.html', beginner=beginner, advanced=advanced, allCourses=allCourses)
+    return render_template('browse.html', trending=trending, allCourses=allCourses)

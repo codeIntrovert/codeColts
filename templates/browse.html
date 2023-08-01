@@ -22,53 +22,27 @@
 {% endif %}
 
 {% else %}
+<div class="heading-section">
+  <h4># <em>Courses Library</em></h4>
+</div>
 {% endif %}
-
-<!-- ***** Most Popular Start ***** -->
+<!-- ***** Start Stream Start ***** -->
 <div class="most-popular">
   <div class="row">
     <div class="col-lg-12">
-      <div class="heading-section">
-        <h4># <em>Courses For Beginners</em></h4>
-      </div>
+
       <div class="row">
         <!--macro from here-->
-        {{ project_list(beginner) }}
+        {{ project_list(allCourses) }}
       </div>
     </div>
   </div>
 </div>
-<!-- ***** Most Popular End ***** -->
-<!--advance coder-->
-<div class="most-popular">
-  <div class="row">
-    <div class="col-lg-12">
-      <div class="heading-section">
-        <h4># <em>Advance Coding Courses</em></h4>
-      </div>
-      <div class="row">{{ project_list(advanced) }}</div>
-    </div>
+<div class="col-lg-12">
+  <div class="main-button">
+    <a href="{{ url_for('profile.profile') }}">Go To Profile</a>
   </div>
 </div>
-        <!-- ***** Start Stream Start ***** -->
-        <div class="most-popular">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="heading-section">
-                <h4># <em>Courses Available</em></h4>
-              </div>
-              <div class="row">
-                <!--macro from here-->
-                {{ project_list(allCourses) }}
-              </div>
-            </div>
-          </div>
-        </div>
-      <div class="col-lg-12">
-        <div class="main-button">
-          <a href="{{ url_for('profile.profile') }}">Go To Profile</a>
-        </div>
-      </div>
 <!-- ***** Start Stream End ***** -->
 
 {% endblock %}
