@@ -91,10 +91,10 @@ Java = {
 'description': 'Get started with Java and object-oriented programming for building robust applications.'
 }
 
-CSharp = {
-'courseName': 'C#',#used on search results
+C++ = {
+'courseName': 'C++',#used on search results
 'name': 'C# Essentials',
-'logo': 'csharp-plain',
+'logo': 'cplusplus-plain',
 'difficulty': 'Beginner',
 'duration': '2 weeks',
 'rating': '4.5',
