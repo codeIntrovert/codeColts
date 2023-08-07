@@ -7,7 +7,7 @@ browse_blueprint = Blueprint('browse', __name__)
 # Map the course_name parameter to the corresponding course data using a dictionary
 course_mapping = {
     'Java': data.Java,
-    'C++': data.C++,
+    'C++': data.C,
     'ReactJS': data.ReactJS,
     'ML+AI': data.ML,
     'JavaScript': data.JavaScript,
