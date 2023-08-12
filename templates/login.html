@@ -1,22 +1,12 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-
-<H1> Login/Sign Up </H1>
-<!-- login form using bootstrap -->
-<form action="">
-    <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" name='email' class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        <small id="emailHelp" name='email' class="form-text text-muted">We'll never share your email with anyone else.</small>
-    </div>
-    <div class="form-group" name='password'>
-        <label for="exampleInputPassword1">Password</label>
-        <input type="password" name='password' class="form-control" id="exampleInputPassword1" placeholder="Password">
-    </div>
-    <button type="submit" name='submit' class="btn btn-primary">Submit</button>
+<h1>Login To See Your Watch History</h1>
+<br>
+<form>
+  <!--login with google-->
+  <button type="button" class=" btn btn-primary">Login With Google</button>
+  <button type="submit" class=" btn btn-primary">Login With Apple</button>
+  <button type="submit" class=" btn btn-primary">Login With Facebook</button>
 </form>
-
-
-
-{% endblock %}
+  {% endblock %}

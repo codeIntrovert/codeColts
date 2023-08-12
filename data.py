@@ -91,16 +91,16 @@ Java = {
 'description': 'Get started with Java and object-oriented programming for building robust applications.'
 }
 
-CSharp = {
-'courseName': 'C#',#used on search results
-'name': 'C# Essentials',
-'logo': 'csharp-plain',
+Cplusplus = {
+'courseName': 'C++',#used on search results
+'name': 'C++ Essentials',
+'logo': 'cplusplus-plain',
 'difficulty': 'Beginner',
 'duration': '2 weeks',
 'rating': '4.5',
 'price': '$15',
 'imageName': 'popular-02.jpg',
-'description': 'Introduction to C# programming language and its applications in various domains.'
+'description': 'Introduction to C++ programming language and its applications in various domains.'
 }
 Django = {
 'courseName': 'Django',#used on search results

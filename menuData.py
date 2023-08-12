@@ -7,7 +7,7 @@ trending = [data.ReactJS,
 
 all = [
     data.Java, #lecture added
-    data.CSharp,
+    data.Cplusplus,
     data.ReactJS, #lecture added
     data.ML, #lecture added
     data.JavaScript,#lecture added

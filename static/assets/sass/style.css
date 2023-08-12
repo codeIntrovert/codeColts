@@ -1,73 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-div pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-font,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-figure,
-header,
-nav,
-section,
-article,
-aside,
-footer,
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100 200 300 400 500 600 700 800 900");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div pre, a, abbr, acronym, address,
+big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl,
+dt, dd, ol, ul, li, figure, header, nav, section, article, aside, footer,
 figcaption {
   margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
 }
+
 ::-webkit-scrollbar {
   display: none;
 }
 
-.clearfix:after {
+clearfix:after {
   content: ".";
   display: block;
   clear: both;
@@ -76,7 +22,7 @@ figcaption {
   height: 0;
 }
 
-.clearfix {
+clearfix {
   display: inline-block;
 }
 
@@ -88,20 +34,13 @@ html[xmlns] .clearfix {
   height: 1%;
 }
 
-ul,
-li {
+ul, li {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-header,
-nav,
-section,
-article,
-aside,
-footer,
-hgroup {
+header, nav, section, article, aside, footer, hgroup {
   display: block;
 }
 
@@ -109,11 +48,9 @@ hgroup {
   box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
   height: 100%;
   margin: 0;
-
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   background-color: #1e1e1e;
@@ -127,16 +64,12 @@ a {
   color: #ccc;
   text-decoration: none !important;
 }
+
 a:hover {
   color: #f99;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
   margin-bottom: 0px;
   color: #f8f0fb;
@@ -158,11 +91,6 @@ img {
   overflow: hidden;
 }
 
-/* 
----------------------------------------------
-Global Styles
---------------------------------------------- 
-*/
 html,
 body {
   background: #00000d;
@@ -181,6 +109,11 @@ p {
   color: #666;
   line-height: 30px;
   margin-bottom: 0px;
+}
+
+::-moz-selection {
+  background: #6320ee;
+  color: #f8f0fb;
 }
 
 ::selection {
@@ -265,14 +198,9 @@ section {
 .heading-section h4 em {
   color: #f8f0fb;
   font-style: normal;
-  text-decoration: Bold;
+  -webkit-text-decoration: Bold;
+          text-decoration: Bold;
 }
-
-/* 
----------------------------------------------
-Pre-loader Style
---------------------------------------------- 
-*/
 
 .js-preloader {
   position: fixed;
@@ -280,17 +208,13 @@ Pre-loader Style
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.99);
-  display: -webkit-box;
+  background-color: #00000d;
   display: flex;
-  -webkit-box-align: center;
   align-items: center;
-  -webkit-box-pack: center;
   justify-content: center;
   opacity: 1;
   visibility: visible;
   z-index: 9999;
-  -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
 }
 
@@ -299,35 +223,16 @@ Pre-loader Style
   visibility: hidden;
   pointer-events: none;
 }
-
-@-webkit-keyframes dot {
-  50% {
-    -webkit-transform: translateX(96px);
-    transform: translateX(96px);
-  }
-}
-
 @keyframes dot {
   50% {
-    -webkit-transform: translateX(96px);
     transform: translateX(96px);
   }
 }
-
-@-webkit-keyframes dots {
-  50% {
-    -webkit-transform: translateX(-31px);
-    transform: translateX(-31px);
-  }
-}
-
 @keyframes dots {
   50% {
-    -webkit-transform: translateX(-31px);
     transform: translateX(-31px);
   }
 }
-
 .preloader-inner {
   position: relative;
   width: 142px;
@@ -343,18 +248,14 @@ Pre-loader Style
   left: 15px;
   background: #6320ee;
   border-radius: 50%;
-  -webkit-transform: translateX(0);
   transform: translateX(0);
-  -webkit-animation: dot 2.8s infinite;
   animation: dot 2.8s infinite;
 }
 
 .preloader-inner .dots {
-  -webkit-transform: translateX(0);
   transform: translateX(0);
   margin-top: 12px;
   margin-left: 31px;
-  -webkit-animation: dots 2.8s infinite;
   animation: dots 2.8s infinite;
 }
 
@@ -368,12 +269,6 @@ Pre-loader Style
   border-radius: 50%;
 }
 
-/* 
----------------------------------------------
-Header Style
---------------------------------------------- 
-*/
-
 .background-header {
   background-color: #f8f0fb !important;
   height: 70px !important;
@@ -382,9 +277,6 @@ Header Style
   left: 0;
   right: 0;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
-  -webkit-transition: all 0.5s ease 0s;
-  -moz-transition: all 0.5s ease 0s;
-  -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
   display: none;
 }
@@ -397,9 +289,6 @@ Header Style
   left: 0;
   right: 0;
   z-index: 100;
-  -webkit-transition: all 0.5s ease 0s;
-  -moz-transition: all 0.5s ease 0s;
-  -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
 
@@ -444,9 +333,6 @@ Header Style
   border-right: 1px solid #010b13;
   flex-basis: 25%;
   margin-right: 5%;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 
@@ -470,9 +356,6 @@ Header Style
   text-align: right;
   margin-top: 0px;
   margin-right: 0px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   position: relative;
   z-index: 999;
@@ -490,9 +373,6 @@ Header Style
   font-size: 14px;
   text-transform: capitalize;
   color: #666;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   border: transparent;
   padding: 13px 10px;
@@ -501,15 +381,12 @@ Header Style
 }
 
 .header-area .main-nav .nav li:last-child a {
-  background-color: #010b13;
-  padding: 8px 10px 8px 20px;
-  border-radius: 23px;
+  background-color: transparent;
 }
 
-.header-area .main-nav .nav li:last-child a img {
-  max-width: 30px;
-  border-radius: 50%;
-  margin-left: 5px;
+.header-area .main-nav .nav li:last-child img {
+  padding: 5px 10px;
+  max-width: 150px;
 }
 
 .header-area .main-nav .nav li.has-sub ul.sub-menu li:last-child a:hover,
@@ -559,9 +436,6 @@ Header Style
 .header-area .main-nav .menu-trigger span,
 .header-area .main-nav .menu-trigger span:before,
 .header-area .main-nav .menu-trigger span:after {
-  -moz-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
   background-color: #6320ee;
   display: block;
@@ -579,9 +453,6 @@ Header Style
 
 .header-area .main-nav .menu-trigger span:before,
 .header-area .main-nav .menu-trigger span:after {
-  -moz-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
   background-color: #6320ee;
   display: block;
@@ -607,18 +478,12 @@ Header Style
 }
 
 .header-area .main-nav .menu-trigger span:before {
-  -moz-transform-origin: 33% 100%;
-  -ms-transform-origin: 33% 100%;
-  -webkit-transform-origin: 33% 100%;
   transform-origin: 33% 100%;
   top: -10px;
   z-index: 10;
 }
 
 .header-area .main-nav .menu-trigger span:after {
-  -moz-transform-origin: 33% 0;
-  -ms-transform-origin: 33% 0;
-  -webkit-transform-origin: 33% 0;
   transform-origin: 33% 0;
   top: 10px;
 }
@@ -631,9 +496,6 @@ Header Style
 }
 
 .header-area .main-nav .menu-trigger.active span:before {
-  -moz-transform: translateY(6px) translateX(1px) rotate(45deg);
-  -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
-  -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
   background-color: #6320ee;
 }
@@ -643,9 +505,6 @@ Header Style
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
-  -moz-transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
   background-color: #6320ee;
 }
@@ -671,7 +530,6 @@ Header Style
     display: none;
   }
 }
-
 @media (max-width: 992px) {
   .header-area {
     top: 0;
@@ -700,8 +558,8 @@ Header Style
     top: 15px;
     right: 70px;
   }
-  .header-area.header-sticky .nav li a:hover,
-  .header-area.header-sticky .nav li a.active {
+  .header-area .header-sticky .nav li a:hover,
+  .header-area .header-sticky .nav li a.active {
     color: #6320ee !important;
     opacity: 1;
   }
@@ -731,9 +589,6 @@ Header Style
     float: none;
     width: 100%;
     display: none;
-    -webkit-transition: all 0s ease 0s;
-    -moz-transition: all 0s ease 0s;
-    -o-transition: all 0s ease 0s;
     transition: all 0s ease 0s;
     margin-left: 0px;
   }
@@ -796,7 +651,7 @@ Header Style
     height: auto;
   }
   .header-area .main-nav .nav li.has-sub:after {
-    color: #3b566e;
+    color: #010b13;
     right: 30px;
     font-size: 14px;
     top: 15px;
@@ -806,13 +661,6 @@ Header Style
     height: 0px;
   }
 }
-
-/* 
----------------------------------------------
-Banner Style
---------------------------------------------- 
-*/
-
 .main-banner {
   background-image: url(../images/card.png);
   background-position: center center;
@@ -839,12 +687,6 @@ Banner Style
   font-style: normal;
   color: #6320ee;
 }
-
-/* 
----------------------------------------------
-Most Popular Style
---------------------------------------------- 
-*/
 
 .most-popular {
   margin-top: 60px;
@@ -909,12 +751,6 @@ Most Popular Style
   margin-bottom: -53px;
 }
 
-/* 
----------------------------------------------
-Gaming Library Style
---------------------------------------------- 
-*/
-
 .gaming-library {
   margin-top: 60px;
   padding: 30px;
@@ -975,18 +811,12 @@ Gaming Library Style
   margin-bottom: -53px;
 }
 
-/* 
----------------------------------------------
-Footer Style
---------------------------------------------- 
-*/
-
 footer {
   background-color: #00000d;
-
   bottom: 0;
   width: 100%;
 }
+
 footer p {
   text-align: center;
   padding: 30px 0px;
@@ -1003,352 +833,9 @@ footer p a:hover {
   color: #6320ee;
 }
 
-/* 
----------------------------------------------
-Featured Games Style
---------------------------------------------- 
-*/
 .nav li:active {
   color: #6320ee;
 }
-.featured-games {
-  border-radius: 23px;
-  background-color: #00000d;
-  padding: 30px;
-}
-
-.featured-games .item .thumb {
-  position: relative;
-  overflow: hidden;
-}
-
-.featured-games .item .thumb .hover-effect {
-  position: absolute;
-  bottom: -100px;
-  text-align: center;
-  width: 100%;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.4s;
-}
-
-.featured-games .item .thumb:hover .hover-effect {
-  opacity: 1;
-  visibility: visible;
-  bottom: 15px;
-}
-
-.featured-games .item .thumb .hover-effect h6 {
-  background-color: #010b13;
-  display: inline-block;
-  color: #6320ee;
-  font-weight: 600;
-  font-size: 14px;
-  padding: 10px 20px;
-  border-radius: 25px;
-}
-
-.featured-games .item img {
-  border-radius: 23px;
-}
-
-.featured-games .item h4 {
-  font-size: 15px;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  display: inline-block;
-}
-
-.featured-games .item span {
-  color: #666;
-  display: block;
-  margin-top: 7px;
-  font-weight: 400;
-}
-
-.featured-games .item ul {
-  float: right;
-  margin-top: 20px;
-}
-
-.featured-games .item ul li {
-  text-align: right;
-  color: #f8f0fb;
-  font-size: 14px;
-}
-
-.featured-games .item ul li:first-child i {
-  color: #ffec51;
-}
-
-.featured-games .item ul li:last-child i {
-  color: #6320ee;
-}
-
-.featured-games .owl-nav {
-  position: absolute;
-  margin: 0 auto;
-  top: -70px;
-  right: 0;
-}
-
-.featured-games .owl-nav .owl-prev {
-  margin-right: 2.5px;
-}
-
-.featured-games .owl-nav .owl-next {
-  margin-left: 2.5px;
-}
-
-.featured-games .owl-nav .owl-prev span,
-.featured-games .owl-nav .owl-next span {
-  font-size: 36px;
-  display: inline-block;
-  color: #666;
-  opacity: 1;
-  transition: all 0.3s;
-}
-
-.featured-games .owl-nav .owl-prev span:hover,
-.featured-games .owl-nav .owl-next span:hover {
-  opacity: 1;
-  color: #6320ee;
-}
-
-.top-downloaded {
-  border-radius: 23px;
-  background-color: #00000d;
-  padding: 30px;
-  max-height: 567px;
-  min-height: 567px;
-}
-
-.top-downloaded ul li {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-}
-
-.top-downloaded ul li img {
-  float: left;
-  margin-right: 15px;
-}
-
-.top-downloaded ul li h4 {
-  font-size: 15px;
-  padding-top: 7px;
-}
-
-.top-downloaded ul li h6 {
-  font-size: 15px;
-  color: #666;
-  font-weight: 400;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.top-downloaded ul li span {
-  color: #f8f0fb;
-  font-size: 15px;
-  margin-right: 10px;
-}
-
-.top-downloaded ul li .download i {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-23px);
-  width: 46px;
-  height: 46px;
-  text-align: center;
-  line-height: 46px;
-  color: #6320ee;
-  background-color: #010b13;
-  border-radius: 50%;
-}
-
-.top-downloaded ul li {
-  border-bottom: 1px solid #010b13;
-  margin-bottom: 28px;
-  padding-bottom: 28px;
-}
-
-.top-downloaded .text-button {
-  text-align: center;
-}
-
-.top-downloaded .text-button a {
-  font-weight: 600;
-  color: #6320ee;
-  font-size: 15px;
-}
-
-/* 
----------------------------------------------
-Start Stream Style
---------------------------------------------- 
-*/
-
-.start-stream .heading-section {
-  margin-top: 60px;
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.start-stream .item {
-  padding: 30px;
-  border: 1px solid #444;
-  border-radius: 23px;
-}
-
-.start-stream .item h4 {
-  font-size: 20px;
-  margin-top: 20px;
-  margin-bottom: 15px;
-  font-weight: 600;
-}
-
-.start-stream .main-button {
-  text-align: center;
-  margin-top: 30px;
-}
-
-/* 
----------------------------------------------
-Live Stream Style
---------------------------------------------- 
-*/
-
-.live-stream {
-  margin-top: 60px;
-  border-radius: 23px;
-  background-color: #00000d;
-  padding: 30px;
-}
-
-.live-stream .item {
-  margin-bottom: 30px;
-}
-
-.live-stream .thumb {
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 20px;
-}
-
-.live-stream .thumb img {
-  border-radius: 23px;
-}
-
-.live-stream .thumb:hover .hover-effect {
-  opacity: 1;
-  visibility: visible;
-}
-
-.live-stream .hover-effect {
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.4s;
-}
-
-.live-stream .hover-effect .live a {
-  position: absolute;
-  background-color: #6320ee;
-  padding: 5px 10px;
-  border-radius: 23px;
-  color: #f8f0fb;
-  font-size: 14px;
-  right: 15px;
-  top: 15px;
-}
-
-.live-stream .hover-effect ul {
-  position: absolute;
-  bottom: 20px;
-  text-align: center;
-  width: 100%;
-}
-
-.live-stream .hover-effect ul li {
-  display: inline-block;
-  margin: 0px 5px;
-}
-
-.live-stream .hover-effect ul li a {
-  background-color: #6320ee;
-  padding: 5px 10px;
-  border-radius: 23px;
-  color: #f8f0fb;
-  font-size: 14px;
-}
-
-.live-stream .avatar img {
-  margin-right: 15px;
-}
-
-.live-stream span i {
-  color: #f8f0fb;
-  background-color: #6320ee;
-  border-radius: 50%;
-  font-size: 12px;
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  text-align: center;
-  line-height: 20px;
-  margin-right: 3px;
-}
-
-.live-stream span {
-  font-size: 14px;
-  color: #6320ee;
-}
-
-.live-stream .down-content h4 {
-  margin-top: 8px;
-  font-size: 20px;
-  font-weight: 700;
-  margin-left: 61px;
-}
-
-.live-stream .main-button {
-  text-align: center;
-  margin-bottom: -53px;
-}
-
-/* 
----------------------------------------------
-Featured Banner Style
---------------------------------------------- 
-*/
-
-.feature-banner .thumb {
-  position: relative;
-  max-height: 305px;
-  overflow: hidden;
-  border-radius: 23px;
-}
-
-.feature-banner .thumb a {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-23px, -23px);
-  width: 46px;
-  height: 46px;
-  background-color: #f8f0fb;
-  border-radius: 50%;
-  display: inline-block;
-  text-align: center;
-  line-height: 46px;
-  color: #6320ee;
-}
-
-/* 
----------------------------------------------
-Game Details Style
---------------------------------------------- 
-*/
 
 .game-details h2 {
   font-size: 45px;
@@ -1440,182 +927,6 @@ Game Details Style
   width: 100%;
 }
 
-/* 
----------------------------------------------
-Other Related Style
---------------------------------------------- 
-*/
-
-.other-games {
-  border-radius: 23px;
-  padding: 30px 30px 0px 30px;
-  background-color: #00000d;
-  margin-top: 60px;
-}
-
-.other-games .item {
-  position: relative;
-  border-bottom: 1px solid #010b13;
-  padding-bottom: 52px;
-  margin-bottom: 30px;
-}
-
-.other-games .item img {
-  float: left;
-  margin-right: 15px;
-}
-
-.other-games .item h4 {
-  display: inline-block;
-  font-size: 15px;
-  margin-bottom: 5px;
-  padding-top: 15px;
-}
-
-.other-games .item span {
-  color: #666;
-  font-size: 14px;
-  display: block;
-}
-
-.other-games ul {
-  position: absolute;
-  right: 0;
-  top: 15px;
-}
-
-.other-games ul li {
-  color: #f8f0fb;
-  font-size: 14px;
-  margin-bottom: 3px;
-}
-
-.other-games ul li:first-child i {
-  color: #ffec51;
-}
-
-/* 
----------------------------------------------
-Profile Style
---------------------------------------------- 
-*/
-
-.main-profile {
-  border-radius: 23px;
-  padding: 30px;
-  background-color: #00000d;
-}
-
-.main-profile .main-info span {
-  font-size: 14px;
-  color: #f8f0fb;
-  background-color: #6320ee;
-  padding: 8px 20px;
-  display: inline-block;
-  border-radius: 25px;
-  font-weight: 400;
-  text-transform: capitalize;
-  letter-spacing: 0.5px;
-  margin-bottom: 15px;
-}
-
-.main-profile .main-info h4 {
-  margin-bottom: 20px;
-}
-
-.main-profile .main-info .main-border-button {
-  margin-top: 25px;
-}
-
-.main-profile ul {
-  border-radius: 23px;
-  padding: 30px;
-  background-color: #010b13;
-}
-
-.main-profile ul li {
-  width: 100%;
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #666;
-}
-
-.main-profile ul li span {
-  float: right;
-  font-weight: 500;
-  color: #6320ee;
-}
-
-.main-profile ul li:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-
-.clips {
-  margin-top: 30px;
-  border-top: 2px solid #010b13;
-}
-
-.clips .heading-section {
-  margin-top: 30px;
-}
-
-.clips .item {
-  border-radius: 23px;
-  padding: 30px 15px;
-  background-color: #010b13;
-  margin-bottom: 30px;
-}
-
-.clips .item .thumb {
-  position: relative;
-  margin-bottom: 15px;
-}
-
-.clips .item .thumb a {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-23px, -23px);
-  width: 46px;
-  height: 46px;
-  background-color: #f8f0fb;
-  border-radius: 50%;
-  display: inline-block;
-  text-align: center;
-  line-height: 46px;
-  color: #6320ee;
-}
-
-.clips .item h4 {
-  font-size: 15px;
-  display: inline-block;
-}
-
-.clips .item span i {
-  color: #6320ee;
-}
-
-.clips .item span {
-  float: right;
-  color: #f8f0fb;
-  font-size: 14px;
-}
-
-.clips .main-button {
-  margin-top: 10px;
-  text-align: center;
-}
-
-/* 
----------------------------------------------
-Responsive Style
---------------------------------------------- 
-*/
-
 body {
   overflow-x: hidden;
 }
@@ -1668,7 +979,6 @@ body {
     margin-bottom: 20px;
   }
 }
-
 @media (max-width: 992px) {
   .background-header {
     display: inline-block;
@@ -1698,7 +1008,6 @@ body {
     margin: 45px 0px;
   }
 }
-
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
     padding-right: 5px;
@@ -1711,4 +1020,4 @@ body {
   .gaming-library .item ul li {
     width: 16%;
   }
-}
+}/*# sourceMappingURL=style.css.map */
