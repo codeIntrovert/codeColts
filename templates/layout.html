@@ -37,20 +37,16 @@
               <!-- ***** Logo End ***** -->
               <!-- ***** Search start ***** -->
               <div class="search-input">
-                <form
-                  id="search"
-                  method="POST"
-                  action="{{ url_for('browse.browse_home') }}"
-                >
-                  <input
-                    type="text"
-                    placeholder="Type Something"
-                    id="searchText"
-                    name="searchKeyword"
-                    value="{{ search_keyword }}"
-                  />
-                  <!-- Display the search keyword if it was submitted -->
-                  <i type="submit" class="fa fa-search"></i>
+                <form id="search" method="POST" action="{{ url_for('browse.browse_home') }}">
+                    <input
+                        type="text"
+                        placeholder="Search Courses"
+                        id="searchText"
+                        name="searchKeyword"
+                        value="{{ search_keyword }}"
+                    /> <!-- Display the search keyword if it was submitted -->
+                    <i type="submit" class="fa fa-search"></i>
+
                 </form>
               </div>
               <!-- ***** Search End ***** -->

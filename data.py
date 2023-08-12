@@ -91,7 +91,7 @@ Java = {
 'description': 'Get started with Java and object-oriented programming for building robust applications.'
 }
 
-Cplusplus = {
+cplusplus = {
 'courseName': 'C++',#used on search results
 'name': 'C++ Essentials',
 'logo': 'cplusplus-plain',
