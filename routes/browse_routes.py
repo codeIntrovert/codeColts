@@ -14,7 +14,18 @@ course_mapping = {
     'Django': data.Django,
     'Python': data.Python,
     'HTML': data.HTML,
-    'Angular': data.Angular
+    'Angular': data.Angular,
+    'Android': data.Android,
+    'NodeJS': data.NodeJS,
+    'SQL': data.SQL,
+    'PHP': data.PHP,
+    'RubyOnRails': data.Rails,
+    'VueJS': data.VueJS,
+    'DataScience': data.DataScience,
+    'Cybersecurity': data.Cybersecurity,
+    'Swift': data.Swift,
+    'Ruby': data.ruby,
+
     # Add more courses here as needed
 }
 

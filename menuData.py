@@ -14,5 +14,17 @@ all = [
     data.Django, #lecture added
     data.Python, #lecture added
     data.HTML, #lecture added
-    data.Angular
+    data.Angular,
+    data.Android,
+    data.NodeJS,
+    data.SQL,
+    data.PHP,
+    data.Rails,
+    data.VueJS,
+    data.DataScience,
+    data.Cybersecurity,
+    data.Swift,
+    data.NodeJS,
+    data.ruby
+
 ]
