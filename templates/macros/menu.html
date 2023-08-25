@@ -2,7 +2,10 @@
   {% for project in data %}
     <div class="col-lg-3 col-sm-6">
       <div class="item"  data-href="{{ url_for('browse.browse_details', course_name=project['courseName']) | safe }}">
-        <img src="{{ url_for('static', filename='assets/images/' ~ project['imageName']) }}" alt="">
+                
+        <img style="height: 130px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{{ project['imageName'] }}" />
+
+          
         <h4>{{ project['courseName'] }}<br><span>{{ project['price'] }}</span></h4>
         <ul>
           <li><i class="fa fa-star" style="color: #ffec51 ;"></i> {{ project['rating'] }}</li>
@@ -13,3 +16,6 @@
     
   {% endfor %}
 {% endmacro %}
+        
+
+          

@@ -31,7 +31,7 @@ ruby = {
     'duration': '2 weeks',
     'rating': '4.5',
     'price': 'Free',
-    'imageName': 'popular-01.jpg',
+    'imageName': 'ruby/ruby-original.svg', #fetched from devicon icon image library
     'description': 'Learn the basics of Ruby programming language for building robust applications.'
 }
 Python = {
@@ -42,7 +42,7 @@ Python = {
     'duration': '3 weeks',
     'rating': '4.7',
     'price': 'Free',
-    'imageName': 'popular-03.jpg',
+    'imageName': 'python/python-original.svg',
     'description': 'Learn the basics of Python programming language for building robust applications.'
 }
 ReactJS = {
@@ -53,7 +53,7 @@ ReactJS = {
     'duration': '1 week',
     'rating': '5.0',
     'price': 'Free',
-    'imageName': 'popular-01.jpg',
+    'imageName': 'react/react-original.svg',
     'description': 'ReactJS is a powerful, efficient and user-friendly JavaScript library for building interactive interfaces.'
 }
 ML = {
@@ -64,7 +64,7 @@ ML = {
     'duration': '3 week',
     'rating': '4.9',
     'price': '$7.5',
-    'imageName': 'popular-02.jpg',
+    'imageName': 'python/python-original.svg',
     'description': 'Training computers to learn from data, improving performance without explicit instructions.'
 }
 JavaScript = {
@@ -75,7 +75,7 @@ JavaScript = {
 'duration': '4 weeks',
 'rating': '4.7',
 'price': '$5.0',
-'imageName': 'popular-04.jpg',
+'imageName': 'javascript/javascript-original.svg',
 'description': 'Learn the basics of JavaScript programming for front-end and back-end development.'
 }
 
@@ -87,7 +87,7 @@ Java = {
 'duration': '5 weeks',
 'rating': '4.8',
 'price': 'Free',
-'imageName': 'popular-03.jpg',
+'imageName': 'java/java-original.svg',
 'description': 'Get started with Java and object-oriented programming for building robust applications.'
 }
 
@@ -99,7 +99,7 @@ cplusplus = {
 'duration': '2 weeks',
 'rating': '4.5',
 'price': '$15',
-'imageName': 'popular-02.jpg',
+'imageName': 'cplusplus/cplusplus-original.svg',
 'description': 'Introduction to C++ programming language and its applications in various domains.'
 }
 Django = {
@@ -110,7 +110,7 @@ Django = {
 'duration': '3 weeks',
 'rating': '4.6',
 'price': '$25',
-'imageName': 'popular-01.jpg',
+'imageName': 'django/django-plain.svg',
 'description': 'Learn the basics of Django framework for building robust web applications.'
 }
 HTML = {
@@ -121,7 +121,7 @@ HTML = {
 'duration': '3 Days',
 'rating': '4.5',
 'price': '$10',
-'imageName': 'popular-04.jpg',
+'imageName': 'html5/html5-original.svg',
 'description': 'Learn the basics of HTML and CSS for front-end web development.'
 }
 Angular = {
@@ -132,7 +132,7 @@ Angular = {
 'duration': '3 Days',
 'rating': '4.5',
 'price': '$10',
-'imageName': 'popular-04.jpg',
+'imageName': 'angularjs/angularjs-original.svg',
 'description': 'Learn the basics of Angular for front-end web development.'
 }    
 
@@ -144,7 +144,7 @@ PHP = {
     'duration': '4 weeks',
     'rating': '4.6',
     'price': '$12',
-    'imageName': 'popular-03.jpg',
+    'imageName': '/php/php-original.svg',
     'description': 'Learn PHP scripting language for web development and server-side scripting.'
 }
 Swift = {
@@ -155,7 +155,7 @@ Swift = {
     'duration': '2 weeks',
     'rating': '4.8',
     'price': '$9',
-    'imageName': 'popular-02.jpg',
+    'imageName': 'swift/swift-original.svg',
     'description': 'Get started with Swift programming language for iOS and macOS app development.'
 }
 SQL = {
@@ -166,7 +166,7 @@ SQL = {
     'duration': '3 weeks',
     'rating': '4.7',
     'price': '$7',
-    'imageName': 'popular-01.jpg',
+    'imageName': 'mysql/mysql-original.svg',
     'description': 'Learn the basics of SQL for managing and querying databases.'
 }
 NodeJS = {
@@ -177,7 +177,7 @@ NodeJS = {
     'duration': '2 weeks',
     'rating': '4.9',
     'price': '$10',
-    'imageName': 'popular-04.jpg',
+    'imageName': 'nodejs/nodejs-original.svg',
     'description': 'Build scalable network applications using Node.js runtime environment.'
 }
 Rails = {
@@ -188,7 +188,7 @@ Rails = {
     'duration': '4 weeks',
     'rating': '4.5',
     'price': '$15',
-    'imageName': 'popular-03.jpg',
+    'imageName': 'rails/rails-original-wordmark.svg',
     'description': 'Learn web development with the Ruby on Rails framework.'
 }
 VueJS = {
@@ -199,7 +199,7 @@ VueJS = {
     'duration': '1 week',
     'rating': '4.7',
     'price': '$8',
-    'imageName': 'popular-02.jpg',
+    'imageName': 'vuejs/vuejs-original.svg',
     'description': 'Introduction to Vue.js for building interactive user interfaces.'
 }
 DataScience = {
@@ -210,7 +210,7 @@ DataScience = {
     'duration': '6 weeks',
     'rating': '4.8',
     'price': '$20',
-    'imageName': 'popular-01.jpg',
+    'imageName': 'python/python-original.svg',
     'description': 'Explore data analysis and machine learning using Python.'
 }
 Android = {
@@ -221,7 +221,7 @@ Android = {
     'duration': '5 weeks',
     'rating': '4.7',
     'price': '$18',
-    'imageName': 'popular-03.jpg',
+    'imageName': 'android/android-original.svg',
     'description': 'Build mobile apps for the Android platform using Java and Android Studio.'
 }
 Cybersecurity = {
@@ -232,6 +232,6 @@ Cybersecurity = {
     'duration': '2 weeks',
     'rating': '4.5',
     'price': '$9',
-    'imageName': 'popular-02.jpg',
+    'imageName': 'javascript/javascript-original.svg',
     'description': 'Introduction to cybersecurity principles and practices.'
 }
