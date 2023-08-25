@@ -169,7 +169,7 @@ Distributed under the no License. See LICENSE.txt for more information.
 <!-- Contact -->
 ## :handshake: Contact
 
-Hasan Imam - [@instagram_handle](https://instagram.com/@introvertcoder) - contact.hasan23@gmail.com
+Hasan Imam - [@introvertCoder](https://instagram.com/@introvertcoder) - contact.hasan23@gmail.com
 
 Project Link: [https://github.com/Louis3797/awesome-readme-template](https://github.com/Louis3797/awesome-readme-template)
 
