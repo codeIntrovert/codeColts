@@ -84,9 +84,8 @@
                   currentPath === "{{ url_for('browse.browse_home') }}"
                 ) {
                   document.getElementById("browse").classList.add("active");
-                } else if (currentPath === "{{ url_for('profile.profile') }}") {
-                  document.getElementById("profile").classList.add("active");
-                } else if (currentPath === "{{ url_for('login.login') }}") {
+                } 
+                else if (currentPath === "{{ url_for('login.login') }}") {
                   document.getElementById("library").classList.add("active");
                 }
               </script>
