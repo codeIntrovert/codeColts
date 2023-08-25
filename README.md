@@ -18,7 +18,7 @@ Removed sections:
 
 <div align="center">
 
-  <img src="static/assets/images/logo.png" alt="logo" width="200" height="auto" />
+  <img src="static/assets/images/logo.png" alt="logo" width="250" height="auto" />
   
   <p>
     One Stop for all your coding needs! 
