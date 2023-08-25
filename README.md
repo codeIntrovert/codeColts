@@ -19,7 +19,6 @@ Removed sections:
 <div align="center">
 
   <img src="static/assets/images/logo.png" alt="logo" width="200" height="auto" />
-  <h1>Code Colts !</h1>
   
   <p>
     One Stop for all your coding needs! 
