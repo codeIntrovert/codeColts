@@ -1,8 +1,8 @@
 import data
 trending = [data.ReactJS,
-            data.Django,
+            data.Swift,
             data.JavaScript,
-            data.Python
+            data.Python,
 ]
 
 all = [
