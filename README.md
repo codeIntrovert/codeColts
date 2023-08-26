@@ -86,7 +86,7 @@ Removed sections:
 ## :star2: About the Project
 
 <div align="center"> 
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
+  <img src="Screenshot.png" alt="screenshot" />
 </div>
 
 
@@ -96,33 +96,28 @@ Removed sections:
 <details>
   <summary>Frontend</summary>
   <ul>
-    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-    <li><a href="https://nextjs.org/">Next.js</a></li>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-    <li><a href="https://tailwindcss.com/">TailwindCSS</a></li>
+    <li><a href="https://www.python.org">Python</a></li>
+    <li><a href="https://www.jinja.org/">Jinja</a></li>
+    <li><a href="https://Sass.org/">Sass</a></li>
+    <li><a href="https://Bootstarp.com/">Bootstarp</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Backend</summary>
   <ul>
-    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-    <li><a href="https://go.dev/">Golang</a></li>
-    <li><a href="https://nestjs.com/">Nest.js</a></li>
-    <li><a href="https://socket.io/">SocketIO</a></li>
-    <li><a href="https://www.prisma.io/">Prisma</a></li>    
-    <li><a href="https://www.apollographql.com/">Apollo</a></li>
-    <li><a href="https://graphql.org/">GraphQL</a></li>
+    <li><a href="https://">Python</a></li>
+    <li><a href="https://">Flask</a></li>
+    <li><a href="https://">JavaScript</a></li>
   </ul>
 </details>
 
 <!-- Features -->
 ### :dart: Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Large Free Courses Library
+- No Ads
+- No Sign Up Required
 
 <!-- Color Reference -->
 ### :art: Color Reference
@@ -157,7 +152,6 @@ Removed sections:
 
 Contributions are always welcome!
 
-See `contributing.md` for ways to get started.
 
 
 <!-- License -->
@@ -169,9 +163,11 @@ Distributed under the no License. See LICENSE.txt for more information.
 <!-- Contact -->
 ## :handshake: Contact
 
-Hasan Imam - [@introvertCoder](https://instagram.com/@introvertcoder) - contact.hasan23@gmail.com
+Hasan Imam
 
-Project Link: [https://github.com/Louis3797/awesome-readme-template](https://github.com/Louis3797/awesome-readme-template)
+Instagram: [@introvertCoder](https://instagram.com/introvertcoder)
+Youtube: [@introvertcoder](https://www.youtube.com/introvertCoder)
+
 
 <!-- Acknowledgments -->
 ## :gem: Acknowledgements
