@@ -75,7 +75,7 @@ a {
 }
 
 a:hover {
-  color: #f99;
+  color: #6320ee;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -831,6 +831,10 @@ footer p {
   padding: 30px 0px;
   color: #f8f0fb;
   font-weight: 300;
+}
+
+footer li a {
+  color: #666 !important;
 }
 
 footer p a {
