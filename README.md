@@ -1,20 +1,3 @@
-<!--
-Hey, thanks for using the awesome-readme-template template.  
-If you have any enhancements, then fork this project and create a pull request 
-or just open an issue with the label "enhancement".
-
-Don't forget to give this project a star for additional support ;)
-Maybe you can mention me or this repo in the acknowledgements too
--->
-
-<!--
-This README is a slimmed down version of the original one.
-Removed sections:
-- Screenshots
-- Running Test
-- Deployment
-- FAQ
--->
 
 <div align="center">
 
@@ -28,34 +11,34 @@ Removed sections:
   
 <!-- Badges -->
 <p>
-  <a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/Louis3797/awesome-readme-template" alt="contributors" />
+  <a href="https://github.com/codeintrovert/awesome-readme-template/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/codeintrovert/awesome-readme-template" alt="contributors" />
   </a>
-  <a href="">
-    <img src="https://img.shields.io/github/last-commit/Louis3797/awesome-readme-template" alt="last update" />
+  <a href="https://github.com/codeintrovert/awesome-readme-template/commits/main">
+    <img src="https://img.shields.io/github/last-commit/codeintrovert/awesome-readme-template" alt="last update" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/network/members">
-    <img src="https://img.shields.io/github/forks/Louis3797/awesome-readme-template" alt="forks" />
+  <a href="https://github.com/codeintrovert/awesome-readme-template/network/members">
+    <img src="https://img.shields.io/github/forks/codeintrovert/awesome-readme-template" alt="forks" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/stargazers">
-    <img src="https://img.shields.io/github/stars/Louis3797/awesome-readme-template" alt="stars" />
+  <a href="https://github.com/codeintrovert/awesome-readme-template/stargazers">
+    <img src="https://img.shields.io/github/stars/codeintrovert/awesome-readme-template" alt="stars" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/issues/">
-    <img src="https://img.shields.io/github/issues/Louis3797/awesome-readme-template" alt="open issues" />
+  <a href="https://github.com/codeintrovert/awesome-readme-template/issues/">
+    <img src="https://img.shields.io/github/issues/codeintrovert/awesome-readme-template" alt="open issues" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/Louis3797/awesome-readme-template.svg" alt="license" />
+  <a href="https://github.com/codeintrovert/awesome-readme-template/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/codeintrovert/awesome-readme-template.svg" alt="license" />
   </a>
 </p>
    
 <h4>
-    <a href="https://github.com/Louis3797/awesome-readme-template/">View Demo</a>
+    <a href="https://github.com/codeintrovert/awesome-readme-template/">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template">Documentation</a>
+    <a href="https://github.com/codeintrovert/awesome-readme-template">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template/issues/">Report Bug</a>
+    <a href="https://github.com/codeintrovert/awesome-readme-template/issues/">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template/issues/">Request Feature</a>
+    <a href="https://github.com/codeintrovert/awesome-readme-template/issues/">Request Feature</a>
   </h4>
 </div>
 
@@ -99,7 +82,7 @@ Removed sections:
     <li><a href="https://www.python.org">Python</a></li>
     <li><a href="https://www.jinja.org/">Jinja</a></li>
     <li><a href="https://Sass.org/">Sass</a></li>
-    <li><a href="https://Bootstarp.com/">Bootstarp</a></li>
+    <li><a href="https://Bootstarp.com/">Bootstrap</a></li>
   </ul>
 </details>
 
@@ -133,7 +116,7 @@ Removed sections:
 <!-- Usage -->
 ## :eyes: Visit Live Project!
 <ul><li>
-<a href="https://Codecolts.vercel.app/">CodeColts()</a>
+<a href="https://CodeColts.vercel.app/">CodeColts()</a>
 </li></ul>
 
 <!-- Roadmap -->
@@ -145,8 +128,8 @@ Removed sections:
 <!-- Contributing -->
 ## :wave: Contributing
 
-<a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" />
+<a href="https://github.com/codeintrovert/awesome-readme-template/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=codeintrovert/awesome-readme-template" />
 </a>
 
 
