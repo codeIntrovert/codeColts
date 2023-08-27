@@ -1,28 +1,6 @@
 #imageName, courseName varible only gets used for menu.html macro on search results
 #NAmes should match the courseName in lecturesData.py
-watchHistory = [
-    {
-        'topic': 'HTML/CSS',
-        'courseName': 'ReactJS',
-        'date': '23/Feb',
-        'duration': '1 Hour',
-        'price': 'Free'
-    },
-    {
-        'topic': 'JavaScript',
-        'courseName': 'ReactJS',
-        'date': '23/Feb',
-        'duration': '2 Hour',
-        'price': 'Free'
-    },
-    {
-        'topic': 'UI/UX',
-        'courseName': 'ReactJS',
-        'date': '23/Feb',
-        'duration': '1.6 Hour',
-        'price': '$10'
-    }
-]
+
 ruby = {
     'courseName': 'Ruby',#used on search results & link route 
     'name': 'Ruby Programming',

@@ -13,12 +13,12 @@ figcaption {
   display: none;
 }
 
-.item {
+.cardborder {
   border: 5px solid transparent;
   transition: border 0.3s;
 }
 
-.item:hover {
+.cardborder:hover {
   border: 5px #01111d solid;
 }
 

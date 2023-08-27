@@ -16,7 +16,6 @@ all = [
     data.HTML, #lecture added
     data.Angular,
     data.Android,
-    data.NodeJS,
     data.SQL,
     data.PHP,
     data.Rails,
