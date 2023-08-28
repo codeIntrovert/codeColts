@@ -121,7 +121,7 @@
 ## :wave: Contributing
 
 <a href="https://github.com/codeintrovert/codeColts/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=codeintrovert/awesome-readme-template" />
+  <img src="https://contrib.rocks/image?repo=codeintrovert/codeColts" />
 </a>
 
 
@@ -132,7 +132,7 @@ Contributions are always welcome!
 <!-- License -->
 ## :warning: License
 
-Distributed under the no License. See LICENSE.txt for more information.
+Creative Commons Zero v1.0 Universal. See LICENSE.md for more information.
 
 
 <!-- Contact -->
