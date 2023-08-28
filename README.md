@@ -24,7 +24,7 @@
     <img src="https://img.shields.io/github/stars/codeIntrovert/codeColts" alt="stars" />
   </a>
   <a href="https://github.com/codeintrovert/awesome-readme-template/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/codeIntrovert/codeColts" alt="license" />
+    <img src="https://img.shields.io/github/license/codeintrovert/awesome-readme-template.svg" alt="license" />
   </a>
 </p>
    
