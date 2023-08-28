@@ -12,33 +12,30 @@
 <!-- Badges -->
 <p>
   <a href="https://github.com/codeintrovert/awesome-readme-template/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/codeintrovert/awesome-readme-template" alt="contributors" />
+    <img src="https://img.shields.io/github/contributors/codeIntrovert/codeColts" alt="contributors" />
   </a>
   <a href="https://github.com/codeintrovert/awesome-readme-template/commits/main">
-    <img src="https://img.shields.io/github/last-commit/codeintrovert/awesome-readme-template" alt="last update" />
+    <img src="https://img.shields.io/github/last-commit/codeIntrovert/codeColts" alt="last update" />
   </a>
   <a href="https://github.com/codeintrovert/awesome-readme-template/network/members">
-    <img src="https://img.shields.io/github/forks/codeintrovert/awesome-readme-template" alt="forks" />
+    <img src="https://img.shields.io/github/forks/codeIntrovert/codeColts" alt="forks" />
   </a>
   <a href="https://github.com/codeintrovert/awesome-readme-template/stargazers">
-    <img src="https://img.shields.io/github/stars/codeintrovert/awesome-readme-template" alt="stars" />
-  </a>
-  <a href="https://github.com/codeintrovert/awesome-readme-template/issues/">
-    <img src="https://img.shields.io/github/issues/codeintrovert/awesome-readme-template" alt="open issues" />
+    <img src="https://img.shields.io/github/stars/codeIntrovert/codeColts" alt="stars" />
   </a>
   <a href="https://github.com/codeintrovert/awesome-readme-template/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/codeintrovert/awesome-readme-template.svg" alt="license" />
+    <img src="https://img.shields.io/github/license/codeIntrovert/codeColts" alt="license" />
   </a>
 </p>
    
 <h4>
-    <a href="https://github.com/codeintrovert/awesome-readme-template/">View Demo</a>
+    <a href="https://github.com/codeintrovert/codeColts/">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/codeintrovert/awesome-readme-template">Documentation</a>
+    <a href="https://github.com/codeintrovert/codeColts">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/codeintrovert/awesome-readme-template/issues/">Report Bug</a>
+    <a href="https://github.com/codeintrovert/codeColtse/issues/">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/codeintrovert/awesome-readme-template/issues/">Request Feature</a>
+    <a href="https://github.com/codeintrovert/codeColts/issues/">Request Feature</a>
   </h4>
 </div>
 
@@ -51,15 +48,10 @@
   * [Tech Stack](#space_invader-tech-stack)
   * [Features](#dart-features)
   * [Color Reference](#art-color-reference)
-  * [Environment Variables](#key-environment-variables)
-- [Getting Started](#toolbox-getting-started)
-  * [Prerequisites](#bangbang-prerequisites)
-  * [Installation](#gear-installation)
-  * [Run Locally](#running-run-locally)
-- [Usage](#eyes-usage)
+
+
 - [Roadmap](#compass-roadmap)
 - [Contributing](#wave-contributing)
-  * [Code of Conduct](#scroll-code-of-conduct)
 - [License](#warning-license)
 - [Contact](#handshake-contact)
 - [Acknowledgements](#gem-acknowledgements)
@@ -128,7 +120,7 @@
 <!-- Contributing -->
 ## :wave: Contributing
 
-<a href="https://github.com/codeintrovert/awesome-readme-template/graphs/contributors">
+<a href="https://github.com/codeintrovert/codeColts/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=codeintrovert/awesome-readme-template" />
 </a>
 
