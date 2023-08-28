@@ -99,10 +99,10 @@
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Primary Color | ![#222831](https://via.placeholder.com/10/222831?text=+) #222831 |
-| Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
-| Accent Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
-| Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
+| Accent Color | ![#6320ee](https://via.placeholder.com/10/6320ee?text=+) #6320ee |
+| Text Color | ![#f8f0fb](https://via.placeholder.com/10/f8f0fb?text=+) #f8f0fb |
+| Background Color | ![#00000d](https://via.placeholder.com/10/00000d?text=+) #00000d |
+| Foreground Color | ![#01111d](https://via.placeholder.com/10/01111d?text=+) #01111d |
 
 
 <!-- Usage -->
@@ -114,7 +114,10 @@
 <!-- Roadmap -->
 ## :compass: Roadmap
 
+* [x] Complete Frontend
 * [x] Complete Free Courses Library
+* [ ] Light/Dark Mode
+* [ ] Sign in with Google
 * [ ] Build Certify (Certification engine)
 
 <!-- Contributing -->

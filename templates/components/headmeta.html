@@ -27,11 +27,13 @@
       rel="stylesheet"
       href="{{ url_for('static', filename='assets/css/fontawesome.css') }}"
     />
-    <link
+    <!--<link
       rel="stylesheet"
       href="{{ url_for('static', filename='assets/sass/style.css') }}"
-    />
-   
+    />-->
+
+    <link rel="stylesheet" href="{{ theme_css }}">
+
     <link
       rel="stylesheet"
       href="{{ url_for('static', filename='assets/css/animate.css') }}"
@@ -40,6 +42,8 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
     />
+
+    <script src="{{ url_for('static', filename='assets/js/theme.js') }}"></script>
     <!--
 
 TemplateMo 579 Cyborg Gaming

@@ -1,13 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100 200 300 400 500 600 700 800 900") 
+/**
+    $primary-color: #007AFF
+    $main-font-color: #00000d
+    $background-color: #D7EEFF
+    $dimText-color: #666
+    $darkblue-color: #FAFAFA
+    $cardBody-color: #F8F9FB
+    $yellow-color: #ffec51
+    $banner-gradient: linear-gradient(310deg, rgba(83,141,255,1) 0%, rgba(215,238,255,1) 100%)
 
 $primary-color:  #6320ee // accent color
 $main-font-color: #f8f0fb // white font throughout
 $background-color: #00000d //dark container color
 $dimText-color: #666 //dim text in navbar
 $darkblue-color: #01111d // layout inside blockcontent color
-$cardBody-color: #010b13 // card body color
+$cardBody-color: #010b13 // card body color #18033e
 $yellow-color: #ffec51 // star color
-
+$banner-gradient: linear-gradient(310deg, #18033e 0%, #081b42 100%)
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,div pre,a,abbr,acronym,address,
 big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,
@@ -738,8 +747,9 @@ section
     
   
 
-.main-banner  
-  background-image: url(../images/card.png) 
+.main-banner
+  background: $banner-gradient
+  //background-image: url(../images/card.png) 
   background-position: center center 
   background-size: cover 
   min-height: 380px 

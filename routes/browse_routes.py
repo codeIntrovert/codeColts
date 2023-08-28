@@ -2,6 +2,7 @@ from flask import Blueprint, render_template, redirect, url_for, request
 import data, menuData
 from lecturesData import lecturesData
 
+
 browse_blueprint = Blueprint('browse', __name__)
 
 # Map the course_name parameter to the corresponding course data using a dictionary
@@ -49,6 +50,8 @@ def details(course_name):
 def browse():
     trending = menuData.trending
     allCourses = menuData.all
+    theme_preference = request.cookies.get('theme', 'light')  # Default to 'light' if cookie not found
+    theme_css = f"static/assets/sass/{theme_preference}_theme.css"
 
     # If the form is submitted (POST request), get the search keyword from the form
     if request.method == 'POST':
@@ -58,7 +61,7 @@ def browse():
         for course_name, course_data in course_mapping.items():
             if search_keyword.lower() in course_name.lower():
                 filtered_courses.append(course_data)
-        return render_template('browse.html', trending=trending, allCourses=allCourses, search_keyword=search_keyword, search_results=filtered_courses)
+        return render_template('browse.html',theme_css=theme_css, trending=trending, allCourses=allCourses, search_keyword=search_keyword, search_results=filtered_courses)
     
     # If it's a GET request, show the regular browse page without search results
-    return render_template('browse.html', trending=trending, allCourses=allCourses)
+    return render_template('browse.html', trending=trending, allCourses=allCourses, theme_css=theme_css)
