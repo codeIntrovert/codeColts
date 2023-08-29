@@ -8,5 +8,6 @@ index_blueprint = Blueprint('index', __name__)
 def index():
     trending = menuData.trending
     theme_preference = request.cookies.get('theme', 'light')  # Default to 'light' if cookie not found
-    theme_css = f"static/assets/sass/{theme_preference}_theme.css"
+    theme_css = theme_preference + "_theme"  # Assuming your CSS files are named "light_theme.css" and "dark_theme.css
+    
     return render_template('index.html', trending=trending, theme_css=theme_css)

@@ -32,27 +32,31 @@ course_mapping = {
 
 @browse_blueprint.route('/browse/<course_name>', endpoint='browse_details')
 def details(course_name):
+    theme_preference = request.cookies.get('theme', 'light')  # Default to 'light' if cookie not found
+    theme_css = theme_preference + "_theme"  # Assuming your CSS files are named "light_theme.css" and "dark_theme.css"
 
     # Check if the given course_name exists in the mapping, if not, return an error or redirect
     if course_name not in course_mapping:
-        return render_template('components/error.html')
+        return render_template('components/error.html', theme_css=theme_css )
 
     # Get the corresponding course data from the course_mapping
     course = course_mapping[course_name]
     lectures_data = lecturesData.get(course_name, [])  # Get lectures data for the course
 
     trending = menuData.trending
-    return render_template('details.html', course=course, lectures_data=lectures_data, trending=trending)
+    return render_template('details.html', course=course, lectures_data=lectures_data, trending=trending, theme_css=theme_css)
 
 ####################### details end #######################
+
+
 ################### General /browse page ###################
 @browse_blueprint.route('/browse', endpoint='browse_home', methods=['GET', 'POST']) # used when no course_name is provided
 def browse():
     trending = menuData.trending
     allCourses = menuData.all
     theme_preference = request.cookies.get('theme', 'light')  # Default to 'light' if cookie not found
-    theme_css = f"static/assets/sass/{theme_preference}_theme.css"
-
+    theme_css = theme_preference + "_theme"  # Assuming your CSS files are named "light_theme.css" and "dark_theme.css"
+    
     # If the form is submitted (POST request), get the search keyword from the form
     if request.method == 'POST':
         search_keyword = request.form.get('searchKeyword')

@@ -32,7 +32,8 @@
       href="{{ url_for('static', filename='assets/sass/style.css') }}"
     />-->
 
-    <link rel="stylesheet" href="{{ theme_css }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/sass/' ~ theme_css ~ '.css') }}">
+
 
     <link
       rel="stylesheet"

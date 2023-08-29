@@ -27,7 +27,7 @@ figcaption {
 }
 
 .cardborder:hover {
-  border: 5px #D7EEFF solid;
+  border: 5px #a5d8ff solid;
 }
 
 clearfix:after {
@@ -110,7 +110,7 @@ img {
 
 html,
 body {
-  background: #D7EEFF;
+  background: #a5d8ff;
   font-family: "Poppins", sans-serif;
 }
 
@@ -225,7 +225,7 @@ section {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #D7EEFF;
+  background-color: #a5d8ff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -679,7 +679,7 @@ section {
   }
 }
 .main-banner {
-  background: linear-gradient(310deg, rgb(83, 141, 255) 0%, rgb(215, 238, 255) 100%);
+  background: linear-gradient(310deg, rgb(83, 141, 255) 0%, #b2dcfc 100%);
   background-position: center center;
   background-size: cover;
   min-height: 380px;
@@ -708,7 +708,7 @@ section {
 .most-popular {
   margin-top: 60px;
   padding: 30px;
-  background-color: #D7EEFF;
+  background-color: #a5d8ff;
   border-radius: 23px;
 }
 
@@ -771,7 +771,7 @@ section {
 .gaming-library {
   margin-top: 60px;
   padding: 30px;
-  background-color: #D7EEFF;
+  background-color: #a5d8ff;
   border-radius: 23px;
 }
 
@@ -829,7 +829,7 @@ section {
 }
 
 footer {
-  background-color: #D7EEFF;
+  background-color: #a5d8ff;
   bottom: 0;
   width: 100%;
 }
@@ -867,7 +867,7 @@ footer p a:hover {
 .game-details .content {
   border-radius: 23px;
   padding: 30px;
-  background-color: #D7EEFF;
+  background-color: #a5d8ff;
 }
 
 .game-details .content .left-info {
