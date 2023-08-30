@@ -61,6 +61,7 @@
 ## :star2: About the Project
 
 <div align="center"> 
+  <img src="ScreenshotLight.png" alt="screenshot" />
   <img src="Screenshot.png" alt="screenshot" />
 </div>
 
@@ -116,8 +117,9 @@
 
 * [x] Complete Frontend
 * [x] Complete Free Courses Library
-* [ ] Light/Dark Mode
-* [ ] Sign in with Google
+* [x] Light/Dark Mode
+* [ ] Viewport and video embed
+* [ ] Sign in and Sign up
 * [ ] Build Certify (Certification engine)
 
 <!-- Contributing -->

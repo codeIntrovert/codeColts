@@ -76,71 +76,7 @@
 		}
 	});
 
-	$('.owl-features').owlCarousel({
-		items:3,
-		loop:true,
-		dots: false,
-		nav: true,
-		autoplay: true,
-		margin:30,
-		responsive:{
-			  0:{
-				  items:1
-			  },
-			  600:{
-				  items:2
-			  },
-			  1200:{
-				  items:3
-			  },
-			  1800:{
-				items:3
-			}
-		}
-	})
 
-	$('.owl-collection').owlCarousel({
-		items:3,
-		loop:true,
-		dots: false,
-		nav: true,
-		autoplay: true,
-		margin:30,
-		responsive:{
-			  0:{
-				  items:1
-			  },
-			  800:{
-				  items:2
-			  },
-			  1000:{
-				  items:3
-			}
-		}
-	})
-
-	$('.owl-banner').owlCarousel({
-		items:1,
-		loop:true,
-		dots: false,
-		nav: true,
-		autoplay: true,
-		margin:30,
-		responsive:{
-			  0:{
-				  items:1
-			  },
-			  600:{
-				  items:1
-			  },
-			  1000:{
-				  items:1
-			}
-		}
-	})
-
-	
-	
 	
 
 	// Menu Dropdown Toggle
