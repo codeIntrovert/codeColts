@@ -22,12 +22,11 @@ figcaption {
 }
 
 .cardborder {
-  border: 5px solid transparent;
-  transition: border 0.3s;
+  transition: transform 0.3s;
 }
 
 .cardborder:hover {
-  border: 5px #a5d8ff solid;
+  transform: scale(0.93);
 }
 
 clearfix:after {

@@ -1,10 +1,4 @@
 import data
-trending = [data.ReactJS,
-            data.Swift,
-            data.JavaScript,
-            data.Python,
-]
-
 all = [
     data.Java, #lecture added
     data.cplusplus,
@@ -26,4 +20,9 @@ all = [
     data.NodeJS,
     data.ruby
 
+]
+trending = [data.ReactJS,
+            data.Swift,
+            data.JavaScript,
+            data.Python,
 ]

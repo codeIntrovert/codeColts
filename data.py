@@ -6,7 +6,7 @@ ruby = {
     'name': 'Ruby Programming',
     'logo': 'ruby-plain', #used in devicon icon css library
     'difficulty': 'Advance',
-    'duration': '2 weeks',
+    'duration': '2 weeks',             
     'rating': '4.5',
     'price': 'Free',
     'imageName': 'ruby/ruby-original.svg', #fetched from devicon icon image library
