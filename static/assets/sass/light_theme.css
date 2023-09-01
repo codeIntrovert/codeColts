@@ -21,6 +21,10 @@ figcaption {
   display: none;
 }
 
+.primary {
+  background-color: #a5d8ff;
+}
+
 .cardborder {
   transition: transform 0.3s;
 }

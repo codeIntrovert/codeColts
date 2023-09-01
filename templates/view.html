@@ -36,7 +36,7 @@
                 <div class="row">
                   <div class="col-lg-10 mx-auto">
                     <div class="thumb">
-                      <img id="customPlayer" src="http://img.youtube.com/vi/2fAv4kWLp8w/maxresdefault.jpg" alt="Video Thumbnail">
+                      <img id="customPlayer" src="{{ thumbnail }}" alt="Video Thumbnail">
                       <div class="play-button"></div>
                     </div>
                   </div>
@@ -50,7 +50,7 @@
             const playButton = thumbContainer.querySelector('.play-button');
         
             playButton.addEventListener('click', () => {
-              thumbContainer.innerHTML = `<iframe id="customPlayer" width="800" height="450" src="https://www.youtube.com/embed/2fAv4kWLp8w?si=877EEZaHF5J0NjmT&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+              thumbContainer.innerHTML = `<iframe id="customPlayer" width="800" height="450" src="https://www.youtube.com/embed/{{VIDEO_ID}}?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
             });
           </script>
           <!-- ***** Featured End ***** -->
@@ -59,16 +59,16 @@
           <div class="game-details">
             <div class="row">
               <div class="col-lg-12">
-                <h2>Fortnite Details</h2>
+                <h2></h2>
               </div>
               <div class="col-lg-12">
                 <div class="content">
                   <div class="row">
-                    <div class="col-lg-6">
-                      <div class="left-info">
-                        <div class="left">
-                          <h4>Fortnite</h4>
-                          <span>Sandbox</span>
+                    <div class="col-lg-10 mx-auto">
+                      <div class="left-info primary">
+                        <div class="left ">
+                          <h4>{{ topic }}</h4>
+                          <span>{{ courseName}}</span>
                         </div>
                         <ul>
                           <li><i class="fa fa-star"></i> 4.8</li>
@@ -76,22 +76,15 @@
                         </ul>
                       </div>
                     </div>
-                    <div class="col-lg-6">
-                      <div class="right-info">
-                        <ul>
-                          <li><i class="fa fa-star"></i> 4.8</li>
-                          <li><i class="fa fa-download"></i> 2.3M</li>
-                          <li><i class="fa fa-server"></i> 36GB</li>
-                          <li><i class="fa fa-gamepad"></i> Action</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="col-lg-12">
-                      <p>Cyborg Gaming is free HTML CSS website template provided by TemplateMo. This is Bootstrap v5.2.0 layout. You can make a <a href="https://paypal.me/templatemo" target="_blank">small contribution via PayPal</a> to info [at] templatemo.com and thank you for supporting. If you want to get the PSD source files, please contact us. Lorem ipsum dolor sit consectetur es dispic dipiscingei elit, sed doers eiusmod lisum hored tempor.</p>
+
+                    <div class="col-lg-10 mx-auto">
+                      <p style="text-align: justify;">CodeColts is an open-source project providing free coding video courses from various sources. <br> We don't own or profit from the videos. All videos are owned by their respective creators. Our purpose is purely educational. We attribute and link to the original content. If you're a video creator and find your content here without proper attribution or consent, contact us to rectify. <br> We respect copyright laws. We're not liable for any damages or losses incurred while using our site. Read our full disclaimer for details, which may change over time.
+                        
+                        <br>Thank you for using CodeColts!</p>
                     </div>
                     <div class="col-lg-12">
                       <div class="main-border-button">
-                        <a href="#">Download Fortnite Now!</a>
+                        <a href="#">Go Back</a>
                       </div>
                     </div>
                   </div>

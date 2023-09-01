@@ -22,6 +22,10 @@ figcaption {
   display: none;
 }
 
+.primary {
+  background-color: #010b13;
+}
+
 .cardborder {
   border: 5px solid transparent;
   transition: 0.3s;
