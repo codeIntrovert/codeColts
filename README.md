@@ -11,19 +11,19 @@
   
 <!-- Badges -->
 <p>
-  <a href="https://github.com/codeintrovert/awesome-readme-template/graphs/contributors">
+  <a href="https://github.com/codeintrovert/codeColts/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/codeIntrovert/codeColts" alt="contributors" />
   </a>
-  <a href="https://github.com/codeintrovert/awesome-readme-template/commits/main">
+  <a href="https://github.com/codeintrovert/codeColts/commits/main">
     <img src="https://img.shields.io/github/last-commit/codeIntrovert/codeColts" alt="last update" />
   </a>
-  <a href="https://github.com/codeintrovert/awesome-readme-template/network/members">
+  <a href="https://github.com/codeintrovert/codeColts/network/members">
     <img src="https://img.shields.io/github/forks/codeIntrovert/codeColts" alt="forks" />
   </a>
-  <a href="https://github.com/codeintrovert/awesome-readme-template/stargazers">
+  <a href="https://github.com/codeintrovert/codeColts/stargazers">
     <img src="https://img.shields.io/github/stars/codeIntrovert/codeColts" alt="stars" />
   </a>
-  <a href="https://github.com/codeintrovert/awesome-readme-template/blob/main/LICENSE">
+  <a href="https://github.com/codeintrovert/codeColts/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/codeintrovert/awesome-readme-template.svg" alt="license" />
   </a>
 </p>
