@@ -29,24 +29,7 @@
 	  var header = $('header').height();
 	});
 	
-	$('.filters ul li').click(function(){
-        $('.filters ul li').removeClass('active');
-        $(this).addClass('active');
-          
-          var data = $(this).attr('data-filter');
-          $grid.isotope({
-            filter: data
-          })
-        });
-
-        var $grid = $(".grid").isotope({
-          	itemSelector: ".all",
-          	percentPosition: true,
-          	masonry: {
-            columnWidth: ".all"
-        }
-    })
-
+	
 	var width = $(window).width();
 		$(window).resize(function() {
 			if (width > 992 && $(window).width() < 992) {

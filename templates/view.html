@@ -1,0 +1,105 @@
+{% extends 'layout.html' %} 
+{% block content %} 
+<style>
+  .thumb {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#customPlayer{
+  border-radius: 22px;
+}
+
+.thumb .play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 64px;
+  height: 64px;
+  background-image: url('static/assets/images/play.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  z-index: 999;
+}
+
+
+</style>
+          <!-- ***** Featured Start ***** -->
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="feature-banner header-text">
+                <div class="row">
+                  <div class="col-lg-10 mx-auto">
+                    <div class="thumb">
+                      <img id="customPlayer" src="http://img.youtube.com/vi/2fAv4kWLp8w/maxresdefault.jpg" alt="Video Thumbnail">
+                      <div class="play-button"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <script>
+            const thumbContainer = document.querySelector('.thumb');
+            const playButton = thumbContainer.querySelector('.play-button');
+        
+            playButton.addEventListener('click', () => {
+              thumbContainer.innerHTML = `<iframe id="customPlayer" width="800" height="450" src="https://www.youtube.com/embed/2fAv4kWLp8w?si=877EEZaHF5J0NjmT&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+            });
+          </script>
+          <!-- ***** Featured End ***** -->
+
+          <!-- ***** Details Start ***** -->
+          <div class="game-details">
+            <div class="row">
+              <div class="col-lg-12">
+                <h2>Fortnite Details</h2>
+              </div>
+              <div class="col-lg-12">
+                <div class="content">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="left-info">
+                        <div class="left">
+                          <h4>Fortnite</h4>
+                          <span>Sandbox</span>
+                        </div>
+                        <ul>
+                          <li><i class="fa fa-star"></i> 4.8</li>
+                          <li><i class="fa fa-download"></i> 2.3M</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="right-info">
+                        <ul>
+                          <li><i class="fa fa-star"></i> 4.8</li>
+                          <li><i class="fa fa-download"></i> 2.3M</li>
+                          <li><i class="fa fa-server"></i> 36GB</li>
+                          <li><i class="fa fa-gamepad"></i> Action</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <p>Cyborg Gaming is free HTML CSS website template provided by TemplateMo. This is Bootstrap v5.2.0 layout. You can make a <a href="https://paypal.me/templatemo" target="_blank">small contribution via PayPal</a> to info [at] templatemo.com and thank you for supporting. If you want to get the PSD source files, please contact us. Lorem ipsum dolor sit consectetur es dispic dipiscingei elit, sed doers eiusmod lisum hored tempor.</p>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="main-border-button">
+                        <a href="#">Download Fortnite Now!</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ***** Details End ***** -->
+
+
+{% endblock %}
