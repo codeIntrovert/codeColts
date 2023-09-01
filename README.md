@@ -118,7 +118,7 @@
 * [x] Complete Frontend
 * [x] Complete Free Courses Library
 * [x] Light/Dark Mode
-* [ ] Viewport and video embed
+* [x] Viewport and video embed
 * [ ] Sign in and Sign up
 * [ ] Build Certify (Certification engine)
 
