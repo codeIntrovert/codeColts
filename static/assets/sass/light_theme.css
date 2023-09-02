@@ -190,17 +190,17 @@ p {
 .main-border-button a:hover {
   border-color: #00000d;
   background-color: #00000d;
-  color: #007AFF;
+  color: #F8F9FB !important;
 }
 
 .border-no-active a {
   border-color: #666;
-  color: #666;
+  color: #F8F9FB !important;
 }
 
 .border-no-active a:hover {
   border-color: #666;
-  color: #666;
+  color: #F8F9FB !important;
   background-color: transparent;
 }
 

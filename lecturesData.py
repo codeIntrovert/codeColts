@@ -36,23 +36,35 @@ lecturesData = {
         {
             'courseName': 'ReactJS',
             'topic': 'HTML/CSS',
-            'author': 'freeCodeCamp',
+            'author': 'SuperSimpleDev',
             'duration': '1 Hour',
-            'price': 'Free'
+            'price': 'Free',
+            'link': 'https://www.youtube.com/watch?v=G3e-cpL7ofc',
+            'id': 'G3e-cpL7ofc',
+            'img': 'https://i.ytimg.com/vi/G3e-cpL7ofc/maxresdefault.jpg'
+
+            
         },
         {
             'courseName': 'ReactJS',
             'topic': 'JavaScript',
-            'author': 'freeCodeCamp',
+            'author': 'SuperSimpleDev',
             'duration': '2 Hour',
-            'price': 'Free'
+            'price': 'Free',
+            'link': 'https://www.youtube.com/watch?v=SBmSRK3feww',
+            'id': 'SBmSRK3feww',
+            'img': 'https://i.ytimg.com/vi/SBmSRK3feww/maxresdefault.jpg'
         },
         {
             'courseName': 'ReactJS',
             'topic': 'UI/UX',
             'author': 'freeCodeCamp',
             'duration': '1.6 Hour',
-            'price': '$10'
+            'price': '$10',
+            'link' : 'https://www.youtube.com/watch?v=DLX62G4lc44',
+            'id' : 'DLX62G4lc44',
+            'img' : 'https://i.ytimg.com/vi/DLX62G4lc44/maxresdefault.jpg'
+
         }
     ],
     'ML+AI': [
@@ -183,6 +195,16 @@ lecturesData = {
             'duration': '3 Hour',
             'price': 'Free'
         }
-        ]
+        ],
+    'Ruby' : [
+        {
+            'courseName': 'Ruby',
+            'topic': 'Fundamentals',
+            'author': 'freeCodeCamp',
+            'duration': '1 Hour'
+        }
+        ],
+
+
     # Add more courses as needed
 }
