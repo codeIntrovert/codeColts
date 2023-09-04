@@ -353,7 +353,6 @@ section {
 }
 
 .header-area .main-nav .logo {
-  border-right: 1px solid #010b13;
   flex-basis: 25%;
   margin-right: 5%;
   transition: all 0.3s ease 0s;
