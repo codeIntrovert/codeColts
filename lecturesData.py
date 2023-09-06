@@ -8,7 +8,7 @@ lecturesData = {
             'duration': '1 Hour',
             'price': 'Free',
             'link': 'https://www.youtube.com/watch?v=rfscVS0vtbw',
-            'id': 'rfscVS0vtbw',
+            'id': 'rfscVS0vtbw', # Video ID used for embedding
             'img': 'https://i.ytimg.com/vi/rfscVS0vtbw/maxresdefault.jpg'
         },
         {
