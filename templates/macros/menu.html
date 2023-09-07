@@ -3,7 +3,7 @@
     <div class="col-lg-3 col-sm-6">
       <div class="item cardborder"  data-href="{{ url_for('browse.browse_details', course_name=project['courseName']) | safe }}">
                 
-        <img style="height: 130px; margin: 10px 0px 10px 0px; " src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{{ project['imageName'] }}" />
+        <img alt="{{ project['courseName'] }} logo" style="height: 130px; margin: 10px 0px 10px 0px; " src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{{ project['imageName'] }}" />
 
           
         <h4>{{ project['courseName'] }}<br><span>{{ project['price'] }}</span></h4>
