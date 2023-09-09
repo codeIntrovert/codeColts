@@ -39,6 +39,6 @@ This legal disclaimer is subject to change without notice. It is your responsibi
 
 ## Contact Us
 
-If you have any questions, concerns, or requests related to this legal disclaimer or the content featured on CodeColts, please contact us at [Contact.hasan23@gmail.com](mailto:Contact.hasan23@gmail.com).
+If you have any questions, concerns, or requests related to this legal disclaimer or the content featured on CodeColts, please contact us at [codeColts@gmail.com](mailto:codeColts@gmail.com).
 
 By using this Website, you acknowledge that you have read and understood this legal disclaimer and agree to comply with its terms and conditions. Thank you for visiting CodeColts.

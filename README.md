@@ -145,6 +145,7 @@ Creative Commons Zero v1.0 Universal. See LICENSE.md for more information.
 
 Hasan Imam
 
+Email: codeColts@gmail.com
 Instagram: [@introvertCoder](https://instagram.com/introvertcoder)
 Youtube: [@introvertcoder](https://www.youtube.com/introvertCoder)
 
