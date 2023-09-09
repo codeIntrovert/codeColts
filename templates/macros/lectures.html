@@ -8,7 +8,7 @@
           <li><h4>Date Added</h4><span>{{ lecture['author'] }}</span></li>
           <li><h4>Duration</h4><span>{{ lecture['duration'] }}</span></li>
           <li><h4>Price</h4><span>{{ lecture['price'] }}</span></li>
-          <li><div class="main-border-button"><a href="{{ url_for('view.views', link=lecture['id'], thumbnail=lecture['img'], topics=lecture['topic'], courseName=lecture['courseName']) }}">Watch</a></div></li>
+          <li><div class="main-border-button"><a href="{{ url_for('view.views', link=lecture['id'], thumbnail=lecture['img'], topics=lecture['topic'], courseName=lecture['courseName'], video_link=lecture['link']) }}">Watch</a></div></li>
           
         </ul>
       </div>

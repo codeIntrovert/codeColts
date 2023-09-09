@@ -12,5 +12,6 @@ def views():
     thumbnail = request.args.get('thumbnail')
     topic = request.args.get('topics')
     courseName = request.args.get('courseName')
+    video_link = request.args.get('video_link')
 
-    return render_template('view.html', theme_css=theme_css, VIDEO_ID=link, thumbnail=thumbnail, topic=topic, courseName=courseName)
+    return render_template('view.html', theme_css=theme_css, VIDEO_ID=link, thumbnail=thumbnail, topic=topic, courseName=courseName, video_link=video_link)
