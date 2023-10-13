@@ -23,9 +23,7 @@
   <a href="https://github.com/codeintrovert/codeColts/stargazers">
     <img src="https://img.shields.io/github/stars/codeIntrovert/codeColts" alt="stars" />
   </a>
-  <a href="https://github.com/codeintrovert/codeColts/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/codeintrovert/awesome-readme-template.svg" alt="license" />
-  </a>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img width="66" height="23.3" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
 </p>
    
 <h4>
