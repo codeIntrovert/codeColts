@@ -114,10 +114,10 @@
 ## :compass: Roadmap
 
 * [x] Complete Frontend
-* [x] Complete Free Courses Library
+* [x] Build Courses Library
 * [x] Light/Dark Mode
 * [x] Viewport and video embed
-* [ ] Sign in and Sign up
+* [ ] Complete Courses Library
 * [ ] Build Certify (Certification engine)
 
 <!-- Contributing -->
