@@ -26,7 +26,6 @@ figcaption {
 }
 
 .cardborder {
-  border: 5px solid transparent;
   transition: 0.3s;
 }
 
