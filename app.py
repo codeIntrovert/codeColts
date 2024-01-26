@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, session, flash
+from flask import Flask, render_template, request, redirect, url_for, session, flash, Response
 from routes.index_routes import index_blueprint
 from routes.browse_routes import browse_blueprint
 from routes.login_routes import login_blueprint
@@ -18,7 +18,14 @@ app.register_blueprint(view_blueprint)
 def page_not_found(error):
     return render_template('components/error.html',theme_css=theme_selection()), 404
 
-
+@app.route('/sitemap.xml')
+def sitemap():
+    try:
+        with open('sitemap.xml', 'r') as f:
+            sitemap_content = f.read()
+        return Response(sitemap_content, content_type='application/xml')
+    except FileNotFoundError:
+        return "Sitemap not found", 404
 
 if __name__ == '__main__':
     app.run()
