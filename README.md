@@ -118,7 +118,11 @@
 * [x] Light/Dark Mode
 * [x] Viewport and video embed
 * [ ] Complete Courses Library
-* [ ] Build Certify (Certification engine)
+* [ ] Build Certify (Certification engine) (Generate Employable report and score)
+* [ ] Add project ideas for Btech Final Year (openCV, MERN CRUD, etc)
+* [ ] Add 90DaysOfDSA integration
+* [ ] Shift Data base to Mongodb
+
 
 <!-- Contributing -->
 ## :wave: Contributing
