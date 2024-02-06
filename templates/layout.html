@@ -22,70 +22,8 @@ from'macros/lectures.html' import lecture_list %}
   <!-- ***** Preloader End ***** -->
 
   <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <nav class="main-nav">
-            <!-- ***** Logo Start ***** -->
-            <a href="{{ url_for('index.index') }}" class="logo">
-              <img src="{{ url_for('static', filename='assets/images/logo.png') }}" alt="" />
-            </a>
-            <!-- ***** Logo End ***** -->
-            <!-- ***** Search start ***** -->
-            <div class="search-input">
-              <form id="search" method="POST" action="{{ url_for('browse.browse_home') }}">
-                <input type="text" placeholder="Search Courses" id="searchText" name="searchKeyword"
-                  value="{{ search_keyword }}" /> <!-- Display the search keyword if it was submitted -->
-                <i type="submit" class="fa fa-search"></i>
+  {% include 'components/navbar.html' %}
 
-              </form>
-            </div>
-            <!-- ***** Search End ***** -->
-            <!-- ***** Menu Start ***** -->
-            <ul class="nav">
-              <li>
-                <a href="{{ url_for('index.index') }}" id="home">Home</a>
-              </li>
-              <li>
-                <a href="{{ url_for('browse.browse_home') }}" id="browse">Browse</a>
-              </li>
-              <li>
-                <a href="{{ url_for('login.login') }}" id="library">History</a>
-              </li>
-              <li onclick="window.open('https://github.com/sponsors/codeIntrovert', '_blank');">
-                <img src="{{ url_for('static', filename='assets/images/SponsorButton.png') }}" alt="" />
-              </li>
-
-              <!-- Add more items as required -->
-            </ul>
-
-            <script>
-              // Get the current page URL path
-              var currentPath = window.location.pathname;
-
-              // Get the menu item with a matching URL and add the "active" class
-              if (currentPath === "{{ url_for('index.index') }}") {
-                document.getElementById("home").classList.add("active");
-              } else if (
-                currentPath === "{{ url_for('browse.browse_home') }}"
-              ) {
-                document.getElementById("browse").classList.add("active");
-              }
-              else if (currentPath === "{{ url_for('login.login') }}") {
-                document.getElementById("library").classList.add("active");
-              }
-            </script>
-
-            <a class="menu-trigger">
-              <span>Menu</span>
-            </a>
-            <!-- ***** Menu End ***** -->
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
   <!-- ***** Header Area End ***** -->
   <div class="container">
     <div class="row">
