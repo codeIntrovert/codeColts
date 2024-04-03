@@ -7,6 +7,9 @@
     One Stop for all your coding needs! 
     That too for FREEE!
   </p>
+  
+![BETA](https://img.shields.io/badge/%20This%20Site%20Is%20Under%20Construction!%20-yellow)
+
 
   
 <!-- Badges -->
